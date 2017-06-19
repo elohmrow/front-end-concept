@@ -1,54 +1,21 @@
-<div class="header-content">
-	<a href="/p/view/index.shtml" class="logo" title="Startseite" tabindex="1">
-		<img class="responsive-image" src="{{env.staticFilePath}}/assets/img/db_em_rgb_100px.svg">
-	</a>
-	<div class="clearfix" id="header-elements">
-			
-		<a id="nav-back">Zurück</a>
-		<a class="burger">Menü</a>
-	
-		<div class="desktop">
-				
-			<form id="searchform" action="/q" method="get" accept-charset="UTF-8" class="searchform">
-				<fieldset>
-					<p>
-					<label for="search-query">Suchen</label>
-					<input type="text" role="search" tabindex="80" class="search-field" value="" maxlength="500" title="Suchen" name="q" id="search-query" autocomplete="off">
-					<input type="hidden" name="s" value="p/DEU/de">
-					<input type="hidden" name="l" value="de">
-					<input type="hidden" name="c" value="DEU">
-					<input type="hidden" name="dc" value="♥">
-					<button type="submit" class="search-button"></button>
-					</p>
-				</fieldset>
-			</form>
-				
-			<div id="font-sizer">
-				<a rel="nofollow" title="Normale Schriftgröße" class="font-normal" tabindex="50" href="?font-size=normal">A</a><span>,</span>
-				<a rel="nofollow" title="Große Schrift" class="font-large" tabindex="60" href="?font-size=large">A</a><span>,</span>
-				<a rel="nofollow" title="Sehr große Schrift" class="font-xl" tabindex="70" href="?font-size=xl">A</a>
-			</div>
-				
-			<div id="language-selector">
-				<a class="toggle-link" href="https://www.bahn.com" data-link="/p/view/index.shtml#slc">Deutsch</a>
-				<ul>
-					<li><a href="https://www.bahn.com/cs/view/index.shtml#slc">Český</a></li>
-					<li><a href="https://www.bahn.com/da/view/index.shtml#slc">Dansk</a></li>
-					<li><a href="https://www.bahn.com/en/view/index.shtml#slc">English</a></li>
-					<li><a href="https://www.bahn.com/es/view/index.shtml#slc">Español</a></li>
-					<li><a href="https://www.bahn.com/fr/view/index.shtml#slc">Français</a></li>
-					<li><a href="https://www.bahn.com/it/view/index.shtml#slc">Italiano</a></li>
-					<li><a href="https://www.bahn.com/nl/view/index.shtml#slc">Nederlands</a></li>
-					<li><a href="https://www.bahn.com/pl/view/index.shtml#slc">Polski</a></li>
-				</ul>
-			</div>
-				
-			<!-- Meta-Navigation -->
-			<ul id="service-nav" class="clearfix">
-				<li><a href="/p/view/index.shtml" class="first"><span>Startseite</span></a></li>	<li><a href="/p/view/hilfe/bahn_de/hilfe.shtml?dbkanal_007=L01_S01_D001_KIN0001_Kontakt_LZ01" tabindex="10">Hilfe &amp; Kontakt</a></li>
-				<li><a href="/p/view/home/info/sitemap.shtml" tabindex="20">Sitemap</a></li> 
-			</ul><!-- #service-nav -->
-
-		</div>
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle collapsed" type="button" data-target="#menu-main-dropdown-mobile" data-toggle="collapse">
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="index.html"> 
+			<img width="120px" class="img-responsive" src="{{env.staticFilePath}}/assets/img/logo-magnolia.svg">
+		</a>
 	</div>
+	
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Login</a></li>
+      </ul>
+    </div>
 </div>

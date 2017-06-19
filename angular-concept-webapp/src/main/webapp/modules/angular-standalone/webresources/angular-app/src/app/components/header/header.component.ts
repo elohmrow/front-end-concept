@@ -3,7 +3,7 @@ import { Component, OnInit } 	from '@angular/core';
 import { environment } 			from '../../../environments/environment';
 
 @Component({
-  selector: 'header',
+  selector: '.mgn-train-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })

@@ -9,7 +9,7 @@ form:
         - name: image
           class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
           targetWorkspace: dam
-          targetTreeRootPath: /Bahn
+          targetTreeRootPath: /Train
           appName: assets
           label: Select image
           identifierToPathConverter:

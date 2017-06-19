@@ -5,7 +5,51 @@ webpackJsonp([1,4],{
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__ = __webpack_require__(37);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainComponent; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var MainComponent = (function (_super) {
+    __extends(MainComponent, _super);
+    function MainComponent() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MainComponent;
+}(__WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__["a" /* AbstractArea */]));
+MainComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
+        selector: "[main-area]",
+        template: __webpack_require__(176),
+        styles: [__webpack_require__(166)]
+    })
+], MainComponent);
+
+//# sourceMappingURL=main.component.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__ = __webpack_require__(37);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScheduleComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -35,8 +79,8 @@ var ScheduleComponent = (function (_super) {
 ScheduleComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: "[schedule-area]",
-        template: __webpack_require__(176),
-        styles: [__webpack_require__(166)]
+        template: __webpack_require__(177),
+        styles: [__webpack_require__(167)]
     })
 ], ScheduleComponent);
 
@@ -44,12 +88,12 @@ ScheduleComponent = __decorate([
 
 /***/ }),
 
-/***/ 101:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_services_magnolia_context_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_services_magnolia_context_service__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83,8 +127,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: 'my-app',
-        template: __webpack_require__(177),
-        styles: [__webpack_require__(167)]
+        template: __webpack_require__(178),
+        styles: [__webpack_require__(168)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__magnolia_app_services_magnolia_context_service__["a" /* MagnoliaContextService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__magnolia_app_services_magnolia_context_service__["a" /* MagnoliaContextService */]) === "function" && _a || Object])
 ], AppComponent);
@@ -94,7 +138,7 @@ var _a;
 
 /***/ }),
 
-/***/ 102:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -120,8 +164,8 @@ var FooterComponent = (function () {
 FooterComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: 'footer',
-        template: __webpack_require__(178),
-        styles: [__webpack_require__(168)]
+        template: __webpack_require__(179),
+        styles: [__webpack_require__(169)]
     }),
     __metadata("design:paramtypes", [])
 ], FooterComponent);
@@ -130,12 +174,12 @@ FooterComponent = __decorate([
 
 /***/ }),
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(26);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -158,9 +202,9 @@ var HeaderComponent = (function () {
 }());
 HeaderComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
-        selector: 'header',
-        template: __webpack_require__(179),
-        styles: [__webpack_require__(169)]
+        selector: '.mgn-train-header',
+        template: __webpack_require__(180),
+        styles: [__webpack_require__(170)]
     }),
     __metadata("design:paramtypes", [])
 ], HeaderComponent);
@@ -169,7 +213,7 @@ HeaderComponent = __decorate([
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -194,9 +238,9 @@ var NavigationComponent = (function () {
 }());
 NavigationComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
-        selector: 'nav',
-        template: __webpack_require__(180),
-        styles: [__webpack_require__(170)]
+        selector: '.mgn-train-navigation',
+        template: __webpack_require__(181),
+        styles: [__webpack_require__(171)]
     }),
     __metadata("design:paramtypes", [])
 ], NavigationComponent);
@@ -205,12 +249,12 @@ NavigationComponent = __decorate([
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubtitleComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -240,8 +284,8 @@ var SubtitleComponent = (function (_super) {
 SubtitleComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: '[app-subtitle]',
-        template: __webpack_require__(181),
-        styles: [__webpack_require__(171)]
+        template: __webpack_require__(182),
+        styles: [__webpack_require__(172)]
     })
 ], SubtitleComponent);
 
@@ -249,13 +293,13 @@ SubtitleComponent = __decorate([
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(26);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextImageComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -294,8 +338,8 @@ var TextImageComponent = (function (_super) {
 TextImageComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: '[app-text-image]',
-        template: __webpack_require__(182),
-        styles: [__webpack_require__(172)]
+        template: __webpack_require__(183),
+        styles: [__webpack_require__(173)]
     }),
     __metadata("design:paramtypes", [])
 ], TextImageComponent);
@@ -304,13 +348,13 @@ TextImageComponent = __decorate([
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_train_service__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_train_service__ = __webpack_require__(64);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimeTableComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -356,8 +400,8 @@ var TimeTableComponent = (function (_super) {
 TimeTableComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: '[app-time-table]',
-        template: __webpack_require__(183),
-        styles: [__webpack_require__(173)]
+        template: __webpack_require__(184),
+        styles: [__webpack_require__(174)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_train_service__["a" /* TrainService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_train_service__["a" /* TrainService */]) === "function" && _a || Object])
 ], TimeTableComponent);
@@ -367,12 +411,12 @@ var _a;
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TitleComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -402,8 +446,8 @@ var TitleComponent = (function (_super) {
 TitleComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
         selector: '[app-title]',
-        template: __webpack_require__(184),
-        styles: [__webpack_require__(174)]
+        template: __webpack_require__(185),
+        styles: [__webpack_require__(175)]
     })
 ], TitleComponent);
 
@@ -411,12 +455,12 @@ TitleComponent = __decorate([
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AreaDirective; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -569,12 +613,12 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 110:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentDirective; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -687,17 +731,17 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 111:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_windowref_service__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_magnolia_context_service__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_area_directive__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_component_directive__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__area_abstract_area__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__component_abstract_component__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_windowref_service__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_magnolia_context_service__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_area_directive__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_component_directive__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__area_abstract_area__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__component_abstract_component__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MagnoliaModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -740,24 +784,6 @@ MagnoliaModule = __decorate([
 ], MagnoliaModule);
 
 //# sourceMappingURL=magnolia.module.js.map
-
-/***/ }),
-
-/***/ 165:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(5)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
 
 /***/ }),
 
@@ -805,7 +831,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".mgn-train-header{\n\tbackground-color: #6A9000;\n\tmargin-bottom: 0px!important;\n}\n\n.mgn-train-navigation {\n\tbackground-color: #9BB454;\n}\n\n.mgn-train-footer {\n\tbackground-color: #2A3E00;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}", ""]);
 
 // exports
 
@@ -830,47 +856,6 @@ exports.push([module.i, "", ""]);
 
 /*** EXPORTS FROM exports-loader ***/
 module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 17:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AbstractComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var AbstractComponent = (function () {
-    /**
-     * Constructor
-     */
-    function AbstractComponent() {
-    }
-    AbstractComponent.prototype.ngOnInit = function () {
-    };
-    return AbstractComponent;
-}());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Input */])(),
-    __metadata("design:type", Object)
-], AbstractComponent.prototype, "component", void 0);
-AbstractComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
-        template: "nbsp;"
-    }),
-    __metadata("design:paramtypes", [])
-], AbstractComponent);
-
-//# sourceMappingURL=abstract.component.js.map
 
 /***/ }),
 
@@ -954,7 +939,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".mgn-train-time-table {\n\tborder-spacing: 2px;\n\tborder-collapse: separate;\n}\n\n.mgn-train-time-table th {\n\tpadding: 5px;\n\ttext-transform: uppercase;\n\tbackground-color: darkgray;\n\tcolor: white;\n}\n\n.mgn-train-time-table td {\n\tpadding: 5px;\n\tborder-left: 1px darkgray solid;\n\tborder-bottom: 1px darkgray solid;\n}\n\n.mgn-train-time-table td:last-child {\n\tpadding: 5px;\n\tborder-right: 1px darkgray solid;\n}", ""]);
 
 // exports
 
@@ -965,37 +950,48 @@ module.exports = module.exports.toString();
 /***/ }),
 
 /***/ 175:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<ng-template ngFor let-component [ngForOf]=\"components\">\n    <div app-title *ngIf=\"component['mgnl:template'] === 'deutsche-bahn:components/title'\" [component]=\"component\" cms-component></div>\n    <div app-subtitle *ngIf=\"component['mgnl:template'] === 'deutsche-bahn:components/subtitle'\" [component]=\"component\" cms-component></div>\n    <div app-text-image *ngIf=\"component['mgnl:template'] === 'deutsche-bahn:components/text-image'\" [component]=\"component\" cms-component></div>\n</ng-template>"
+exports = module.exports = __webpack_require__(5)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
 /***/ 176:
 /***/ (function(module, exports) {
 
-module.exports = "<ng-template ngFor let-component [ngForOf]=\"components\">\n    <div app-time-table *ngIf=\"component['mgnl:template'] === 'deutsche-bahn:components/time-table'\" [component]=\"component\" cms-component></div>\n</ng-template>"
+module.exports = "<ng-template ngFor let-component [ngForOf]=\"components\">\n    <div app-title *ngIf=\"component['mgnl:template'] === 'angular-standalone:components/title'\" [component]=\"component\" cms-component></div>\n    <div app-subtitle *ngIf=\"component['mgnl:template'] === 'angular-standalone:components/subtitle'\" [component]=\"component\" cms-component></div>\n    <div app-text-image *ngIf=\"component['mgnl:template'] === 'angular-standalone:components/text-image'\" [component]=\"component\" cms-component></div>\n</ng-template>"
 
 /***/ }),
 
 /***/ 177:
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"doc\">\n\t<!-- Header -->\n\t<header id=\"header\"></header>\n\t\n\t<!-- Navigation -->\n\t<nav class=\"red\"></nav>\n\t\n\t<!-- Content -->\n\t<div class=\"content clearfix\" *ngIf=\"isDataLoaded\">\n\t\t<!-- Main areas -->\n\t\t<div class=\"section clearfix \">\n\t\t\t<div class=\"modul bild-teaser-auswahlliste js-dropdown-sets-image twoCol\" areaName=\"left\" cms-area main-area></div>\n\t\t\n\t\t\t<div class=\"modul bild-teaser-auswahlliste js-dropdown-sets-image twoCol\" areaName=\"right\" cms-area main-area></div>\n\t\t</div>\n\t\t\n\t\t<!-- Schedule area -->\n\t\t<div class=\"section clearfix full-width\">\n\t\t\t<div class=\"modul marketing-teaser\" areaName=\"schedule\" cms-area schedule-area></div>\n\t\t</div>\n\t</div>\n\t\n\t<!-- Footer -->\n\t<footer class=\"clearfix\"></footer>\n</div>"
+module.exports = "<ng-template ngFor let-component [ngForOf]=\"components\">\n    <div app-time-table *ngIf=\"component['mgnl:template'] === 'angular-standalone:components/time-table'\" [component]=\"component\" cms-component></div>\n</ng-template>"
 
 /***/ }),
 
 /***/ 178:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"notice clearfix\"><a class=\"logo-ico logoIcon-oeko\" href=\"/p/view/service/umwelt/unterwegs_mit_oekostrom.shtml?dbkanal_007=L01_S01_D001_KIN0001_LOGOS_1-oekostrom_LZ01\"></a><ul class=\"app-stores\"><li><a class=\"logo-ico logoIcon-app-store\" href=\"https://itunes.apple.com/de/app/db-navigator/id343555245?mt=8\"></a></li><li><a class=\"logo-ico logoIcon-google-play\" href=\"https://play.google.com/store/apps/details?id=de.hafas.android.db\"></a></li><li><a class=\"logo-ico logoIcon-ms-store\" href=\"https://www.microsoft.com/store/apps/9wzdncrfj3th\"></a></li></ul><ul class=\"payment\"><li><a class=\"logo-ico logoIcon-pay-cards\" href=\"/p/view/service/buchung/zahlung/kreditkarte.shtml?dbkanal_007=L01_S01_D001_KIN0001_LOGOS_4-kreditkarte_LZ01\"></a></li><li><a class=\"logo-ico logoIcon-ueberw\" href=\"/p/view/service/buchung/zahlung/sofort-ueberweisung.shtml?dbkanal_007=L01_S01_D001_KIN0001_LOGOS_5-sofortueberweisung_LZ01\"></a></li><li><a class=\"logo-ico logoIcon-paypal\" href=\"/p/view/service/buchung/zahlung/paypal.shtml?dbkanal_007=L01_S01_D001_KIN0001_LOGOS_6-paypal_LZ01\"></a></li><li><a class=\"logo-ico logoIcon-ec\" href=\"/p/view/service/buchung/zahlung/lastschrift.shtml?dbkanal_007=L01_S01_D001_KIN0001_LOGOS_7-lastschrift_LZ01\"></a></li></ul></div>\n\t\n<div class=\"meta clearfix\">\n\t<ul class=\"\">\n\t\t<li><a rel=\"nofollow\" href=\"/p/view/home/info/impressum.shtml?dbkanal_007=L01_S01_D001_KIN0001_footer-impressum_LZ01\">Impressum</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"/p/view/home/agb/agb.shtml?dbkanal_007=L01_S01_D001_KIN0001_footer-agb_LZ01\">AGB</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"/p/view/home/agb/nutzungsbedingungen.shtml?dbkanal_007=L01_S01_D001_KIN0001_footer-nutzungsbedingungen_LZ01\">Nutzungsbedingungen</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"/p/view/home/datenschutz/schutz.shtml?dbkanal_007=L01_S01_D001_KIN0001_footer-datenschutz_LZ01\">Datenschutz</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"http://www.deutschebahn.com?dbkanal_007=L01_S01_D001_KIN0001_footer-deutschebahn_LZ01\" target=\"_blank\">deutschebahn.com</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"/wmedia/view/mdb/media/intern/karriere/karriere.html\">Karriere</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"/p/view/home/partnerprogramm/online_partnerprogramme.shtml?dbkanal_007=L01_S01_D001_KIN0001_footer-kooperationen_LZ01\">Kooperationen</a></li>\n\t\t<li><a rel=\"nofollow\" href=\"http://www.bahnshop.de?dbkanal_007=L01_S01_D001_KIN0001_footer-bahnshop_LZ01\" target=\"_blank\">bahnshop.de</a></li>\n\t</ul>\n</div>"
+module.exports = "<!-- Header -->\n<nav class=\"navbar navbar-default mgn-train-header\"></nav>\n\n<!-- Navigation -->\n<nav class=\"navbar navbar-default affix-top mgn-train-navigation\"></nav>\n\n<!-- Content -->\n<div class=\"container\" *ngIf=\"isDataLoaded\">\n\t<!-- Main areas -->\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12 col-md-6\" areaName=\"left\" cms-area main-area></div>\n\t\t<div class=\"col-xs-12 col-md-6\" areaName=\"right\" cms-area main-area></div>\n\t</div>\n\t\n\t<!-- Schedule area -->\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12\" areaName=\"schedule\" cms-area schedule-area></div>\n\t</div>\n</div>\n\n<!-- Footer -->\n<footer class=\"mgn-train-footer\"></footer>"
 
 /***/ }),
 
 /***/ 179:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"header-content\">\n\t<a href=\"/p/view/index.shtml\" class=\"logo\" title=\"Startseite\" tabindex=\"1\">\n\t\t<img class=\"responsive-image\" src=\"{{env.staticFilePath}}/assets/img/db_em_rgb_100px.svg\">\n\t</a>\n\t<div class=\"clearfix\" id=\"header-elements\">\n\t\t\t\n\t\t<a id=\"nav-back\">Zurück</a>\n\t\t<a class=\"burger\">Menü</a>\n\t\n\t\t<div class=\"desktop\">\n\t\t\t\t\n\t\t\t<form id=\"searchform\" action=\"/q\" method=\"get\" accept-charset=\"UTF-8\" class=\"searchform\">\n\t\t\t\t<fieldset>\n\t\t\t\t\t<p>\n\t\t\t\t\t<label for=\"search-query\">Suchen</label>\n\t\t\t\t\t<input type=\"text\" role=\"search\" tabindex=\"80\" class=\"search-field\" value=\"\" maxlength=\"500\" title=\"Suchen\" name=\"q\" id=\"search-query\" autocomplete=\"off\">\n\t\t\t\t\t<input type=\"hidden\" name=\"s\" value=\"p/DEU/de\">\n\t\t\t\t\t<input type=\"hidden\" name=\"l\" value=\"de\">\n\t\t\t\t\t<input type=\"hidden\" name=\"c\" value=\"DEU\">\n\t\t\t\t\t<input type=\"hidden\" name=\"dc\" value=\"♥\">\n\t\t\t\t\t<button type=\"submit\" class=\"search-button\"></button>\n\t\t\t\t\t</p>\n\t\t\t\t</fieldset>\n\t\t\t</form>\n\t\t\t\t\n\t\t\t<div id=\"font-sizer\">\n\t\t\t\t<a rel=\"nofollow\" title=\"Normale Schriftgröße\" class=\"font-normal\" tabindex=\"50\" href=\"?font-size=normal\">A</a><span>,</span>\n\t\t\t\t<a rel=\"nofollow\" title=\"Große Schrift\" class=\"font-large\" tabindex=\"60\" href=\"?font-size=large\">A</a><span>,</span>\n\t\t\t\t<a rel=\"nofollow\" title=\"Sehr große Schrift\" class=\"font-xl\" tabindex=\"70\" href=\"?font-size=xl\">A</a>\n\t\t\t</div>\n\t\t\t\t\n\t\t\t<div id=\"language-selector\">\n\t\t\t\t<a class=\"toggle-link\" href=\"https://www.bahn.com\" data-link=\"/p/view/index.shtml#slc\">Deutsch</a>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/cs/view/index.shtml#slc\">Český</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/da/view/index.shtml#slc\">Dansk</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/en/view/index.shtml#slc\">English</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/es/view/index.shtml#slc\">Español</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/fr/view/index.shtml#slc\">Français</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/it/view/index.shtml#slc\">Italiano</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/nl/view/index.shtml#slc\">Nederlands</a></li>\n\t\t\t\t\t<li><a href=\"https://www.bahn.com/pl/view/index.shtml#slc\">Polski</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t\t\t\n\t\t\t<!-- Meta-Navigation -->\n\t\t\t<ul id=\"service-nav\" class=\"clearfix\">\n\t\t\t\t<li><a href=\"/p/view/index.shtml\" class=\"first\"><span>Startseite</span></a></li>\t<li><a href=\"/p/view/hilfe/bahn_de/hilfe.shtml?dbkanal_007=L01_S01_D001_KIN0001_Kontakt_LZ01\" tabindex=\"10\">Hilfe &amp; Kontakt</a></li>\n\t\t\t\t<li><a href=\"/p/view/home/info/sitemap.shtml\" tabindex=\"20\">Sitemap</a></li> \n\t\t\t</ul><!-- #service-nav -->\n\n\t\t</div>\n\t</div>\n</div>"
+module.exports = "<div class=\"container\">\n\t<div class=\"meta clearfix\">\n\t\t<ul class=\"list-inline\">\n\t\t\t<li><a href=\"#\">Demo site</a></li>\n\t\t\t<li><a href=\"#\">Contact us</a></li>\n\t\t\t<li><a href=\"#\">Free trial</a></li>\n\t\t</ul>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -1004,13 +1000,96 @@ module.exports = "<div class=\"header-content\">\n\t<a href=\"/p/view/index.shtm
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch__ = __webpack_require__(189);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AbstractComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AbstractComponent = (function () {
+    /**
+     * Constructor
+     */
+    function AbstractComponent() {
+    }
+    AbstractComponent.prototype.ngOnInit = function () {
+    };
+    return AbstractComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Input */])(),
+    __metadata("design:type", Object)
+], AbstractComponent.prototype, "component", void 0);
+AbstractComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
+        template: "nbsp;"
+    }),
+    __metadata("design:paramtypes", [])
+], AbstractComponent);
+
+//# sourceMappingURL=abstract.component.js.map
+
+/***/ }),
+
+/***/ 180:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n\t<div class=\"navbar-header\">\n\t\t<button class=\"navbar-toggle collapsed\" type=\"button\" data-target=\"#menu-main-dropdown-mobile\" data-toggle=\"collapse\">\n\t\t\t<span class=\"icon-bar\"></span> \n\t\t\t<span class=\"icon-bar\"></span> \n\t\t\t<span class=\"icon-bar\"></span>\n\t\t</button>\n\t\t<a class=\"navbar-brand\" href=\"index.html\"> \n\t\t\t<img width=\"120px\" class=\"img-responsive\" src=\"{{env.staticFilePath}}/assets/img/logo-magnolia.svg\">\n\t\t</a>\n\t</div>\n\t\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n          <li><a href=\"#\">Home</a></li>\n          <li><a href=\"#\">Contact</a></li>\n          <li><a href=\"#\">Sitemap</a></li>\n          <li><a href=\"#\">Login</a></li>\n      </ul>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ 181:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <div class=\"collapse navbar-collapse\" id=\"menu-main-dropdown-mobile\">\n      <ul class=\"nav navbar-nav\">\n          <li><a href=\"#\">Tickets</a></li>\n          <li><a href=\"#\">Travel & Services</a></li>\n          <li><a href=\"#\">Magnolia Card</a></li>\n          <li><a href=\"#\">Customer Program</a></li>\n      </ul>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ 182:
+/***/ (function(module, exports) {
+
+module.exports = "<h2>{{component.title}}</h2>"
+
+/***/ }),
+
+/***/ 183:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\n\t<div class=\"col-xs-12\">\n\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image}}\"/>\n\t</div>\n\t<div class=\"col-xs-12\">\n\t\t<h2 class=\"light\">{{component.title}}</h2>\n\t</div>\t\t\n</div>"
+
+/***/ }),
+
+/***/ 184:
+/***/ (function(module, exports) {
+
+module.exports = "<table class=\"mgn-train-time-table\" cellspacing=\"0\">\n<tr>\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<th *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">Dep. station</th>\n\t<th *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">Arr. station</th>\n\t<th *ngIf=\"column === 'departure'\" style=\"width: 167px;\">Dep. time</th>\n\t<th *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">Arr. time</th>\n\t<th *ngIf=\"column === 'length'\" style=\"width: 73px;\">Length</th>\n\t<th *ngIf=\"column === 'stops'\" style=\"width: 72px;\">Num stops</th>\n\t<th *ngIf=\"column === 'type'\" style=\"width: 78px;\">Type</th>\n\t<th *ngIf=\"column === 'price'\" style=\"width: 217px;\">Price</th>\n\t<th *ngIf=\"column === 'flexPrice'\" style=\"width: 125px;\">Flex price</th>\n\t</ng-template>\n</tr>\n<tr *ngFor=\"let train of trains\" class=\"firstrow\">\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<td *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">{{train.departStation}}</td>\n\t<td *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">{{train.arrivalStation}}</td>\n\t<td *ngIf=\"column === 'departure'\" style=\"width: 167px;\">{{train.departure}}</td>\n\t<td *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">{{train.arrival}}</td>\n\t<td *ngIf=\"column === 'length'\">{{train.length}}</td>\n\t<td *ngIf=\"column === 'stops'\">{{train.stops}}</td>\n\t<td *ngIf=\"column === 'type'\">{{train.type}}</td>\n\t<td *ngIf=\"column === 'price'\">{{train.price}}</td>\n\t<td *ngIf=\"column === 'flexPrice'\">{{train.flexPrice}}</td>\n\t</ng-template>\n</tr>\n</table>"
+
+/***/ }),
+
+/***/ 185:
+/***/ (function(module, exports) {
+
+module.exports = "<h1>{{component.title}}</h1>"
+
+/***/ }),
+
+/***/ 19:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__windowref_service__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__environments_environment__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__windowref_service__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__environments_environment__ = __webpack_require__(26);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MagnoliaContextService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1164,50 +1243,15 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 180:
-/***/ (function(module, exports) {
-
-module.exports = "<ul class=\"main-nav-left\">\n        <li>\n            <a href=\"/p/view/angebot/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi_berater_LZ01\" class=\"menu-link\"><span>Tickets &amp; Angebote</span></a>\n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/angebot/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-uebersicht_LZ01\">Übersicht: Tickets &amp; Angebote</a></li>\n                    <li><a href=\"/p/view/angebot/flexpreis.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-flexpreis_LZ01\">Flexpreis</a></li>\n                    <li><a href=\"/p/view/angebot/sparpreis/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-sparpreis_LZ01\">Sparpreis</a></li>\n                    <li><a href=\"/p/view/angebot/sparpreis-europa/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-es_LZ01\">Sparpreis Europa</a></li>\n                    <li><a href=\"/p/view/angebot/gruppen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-gruppen_LZ01\">Gruppenreisen</a></li>\n                    <li><a href=\"/p/view/angebot/regio/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-regio_LZ01\">Regionale Angebote</a></li></ul><ul>\n                    <li><a href=\"/p/view/angebot/verbuende/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-verkehrsverbuende_LZ01\">Verkehrsverbünde</a></li>\n                    <li><a href=\"/p/view/angebot/fernbus/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-fernbusse_LZ01\">Fernbusse</a></li>\n                    <li><a href=\"/p/view/angebot/pendler/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-pendlerangebote_LZ01\">Pendler &amp; Vielfahrer</a></li>\n                    <li><a href=\"/p/view/angebot/international/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-international_LZ01\">Internationale Angebote</a></li>\n                    <li><a href=\"/p/view/angebot/nachtzug/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-cnl_LZ01\">Reisen über Nacht</a></li>\n                    <li><a href=\"/p/view/angebot/zusatzticket/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-zusatzticket_LZ01\">Zusatz-Tickets</a></li></ul><ul>\n                    <li><a href=\"/p/view/angebot/sitzplatzreservierung/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-reservierung_LZ01\">Sitzplatzreservierung</a></li>\n                    <li><a href=\"/p/view/angebot/versicherungen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-versicherungen_LZ01\">Versicherungen</a></li>\n                    <li><a href=\"/p/view/angebot/gutscheine.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-geschenkgutschein_LZ01\">Geschenkgutschein</a></li>\n                    <li><a href=\"/p/view/angebot/uebersicht_online_nicht_buchbar.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-guenstiger_LZ01\">Weitere ggf. günstigere Angebote</a></li></ul>\n                \n                <div class=\"footer\">\n                    <p><b>Tipp:</b> Nutzen Sie den Angebotsberater, um das für Sie passende Angebot zu finden!</p>\n                    <a href=\"/p/view/angebot/berater.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_angebote-angebotsberater_LZ01\">Zum Angebotsberater</a>\n                </div>\n            </div>\n        </li>\n        <li>\n            <a href=\"/p/view/service/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-service_LZ01\" class=\"menu-link\"><span>Reise &amp; Services</span></a>\n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/service/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-uebersicht_LZ01\">Übersicht: Reise &amp; Services</a></li>\n                    <li><a href=\"/p/view/service/buchung/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-buchung_LZ01\">Informationen zur Buchung</a></li>\n                    <li><a href=\"/p/view/service/auskunft/puenktlichkeits_tools.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-auskunft_LZ01\">Aktuelle Meldungen &amp; Verspätungen</a></li>\n                    <li><a href=\"/p/view/service/fahrplaene/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-fahrplaene_LZ01\">Fahrpläne</a></li>\n                    <li><a href=\"/p/view/service/bahnhof/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-bahnhof_LZ01\">Am Bahnhof</a></li>\n                    <li><a href=\"/p/view/service/zug/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-zug_LZ01\">Im Zug</a></li></ul><ul>\n                    <li><a href=\"/p/view/service/fundservice.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-fundservice_LZ01\">Fundservice</a></li>\n                    <li><a href=\"/p/view/service/fahrrad/bahn_und_fahrrad.shtml?dbkanal_007=L01_S01_D001_KIN0011_top-navi-flyout_service-bahnfahrrad_LZ01\">Bahn und Fahrrad</a></li>\n                    <li><a href=\"/p/view/service/familie/kinder.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-kinder_LZ01\">Reisen mit Kindern</a></li>\n                    <li><a href=\"/p/view/service/geschaeftsreisen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-geschaeftsreisen_LZ01\">Geschäftsreisen</a></li>\n                    <li><a href=\"/p/view/service/barrierefrei/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-handicap_LZ01\">Barrierefreies Reisen</a></li>\n                    <li><a href=\"/p/view/service/60plus/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-senioren_LZ01\">Generation 60plus</a></li></ul><ul>\n                    <li><a href=\"/p/view/service/gruppen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-gruppen_LZ01\">Gruppenreisen</a></li>\n                    <li><a href=\"/p/view/service/fanecke/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-fanecke_LZ01\">Services für Fußballfans</a></li>\n                    <li><a href=\"/p/view/service/gepaeck/gepaeck.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_gepaeck-service_LZ01\">DB Gepäckservice</a></li>\n                    <li><a href=\"/p/view/service/umwelt/umwelt_uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-umwelt_LZ01\">Umweltfreundlich reisen</a></li>\n                    <li><a href=\"/p/view/service/reformation/reformation.shtml\">Reformationsjubiläum</a></li></ul>\n                \n                <div class=\"footer\">\n                    <p><b>Tipp:</b> Keine Lust auf Kofferschleppen?</p>\n                    <a href=\"/p/view/service/gepaeck/gepaeck.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_service-tipp-gepaeck_LZ01\">Nutzen Sie unseren Gepäckservice!</a>\n                </div>\n            </div>\n        </li>\n        <li>\n            <a href=\"/p/view/bahncard/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-bahncard_LZ01\" class=\"menu-link\"><span>BahnCard</span></a>\n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/bahncard/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-uebersicht_LZ01\">Übersicht: BahnCard</a></li>\n                    <li><a href=\"/p/view/bahncard/ueberblick/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bcfamilie_LZ01\">Alle BahnCards</a></li>\n                    <li><a href=\"https://www.bahn.de/-fahrkarten/privatkunde/bahncardrechner/bahncard_rechner_start.post?REQ0JourneyStopsSID=&amp;S=&amp;REQ0JourneyStopsZID=&amp;Z=&amp;tariffClass=2&amp;lang=de&amp;search=1&amp;dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bcberater_LZ01\">BahnCard-Berater: Wann lohnt sich die BahnCard für Sie?</a></li></ul><ul>\n                    <li><a href=\"/p/view/bahncard/bahnbonus/bahnbonus.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bahnbonus_LZ01\">bahn.bonus Programm</a></li>\n                    <li><a href=\"/p/view/bahncard/bahnbonus/bahnbonus-sammeln.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bbsammeln_LZ01\">bahn.bonus-Punkte sammeln</a></li>\n                    <li><a href=\"/p/view/bahncard/bahnbonus/bahnbonus_praemien_uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bbkatalog_LZ01\">bahn.bonus-Punkte einlösen</a></li>\n                    <li><a href=\"/p/view/bahncard/bahncomfort/bahncomfort.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-comfort_LZ01\">bahn.bonus comfort Status</a></li></ul><ul>\n                    <li><a href=\"/p/view/bahncard/vorteile/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-kartenvorteile-db_LZ01\">Kartenvorteile bei der DB</a></li>\n                    <li><a href=\"/p/view/bahncard/kooperationen/uebersicht.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-kartenvorteile-partner_LZ01\">Kartenvorteile bei Partnern</a></li>\n                    <li><a href=\"/p/view/bahncard/bahncard-services/bahncardservice.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bcservices_LZ01\">BahnCard-Services</a></li></ul>\n                \n                <div class=\"footer\">\n                    <p><b>Tipp:</b> </p>\n                    <a href=\"/p/view/bahncard/ueberblick/preise.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-flyout_bc-bcpreise_LZ01\">BahnCard Preise im Überblick</a>\n                </div>\n            </div>\n        </li>\n        <li>\n            <a href=\"/p/view/bahnbusiness/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-geschaeftsreisen_LZ01\" class=\"menu-link\"><span>Geschäftskunden</span></a>\n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/bahnbusiness/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-startseite_LZ01\">Übersicht: Geschäftskunden</a></li>\n                    <li><a href=\"/p/view/bahnbusiness/firmenkundenprogramme/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-vorteile_LZ01\">Das Geschäftskundenprogramm</a></li>\n                    <li><a href=\"/p/view/bahnbusiness/buchung/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-buchung-ueberblick_LZ01\">Rund um Ihre Buchung</a></li></ul><ul>\n                    <li><a href=\"/p/view/bahnbusiness/businesscards/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-bcbusiness_LZ01\">Business BahnCards</a></li>\n                    <li><a href=\"/p/view/bahnbusiness/services/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-services_LZ01\">Services für Geschäftsreisende</a></li>\n                    <li><a href=\"/p/view/bahnbusiness/news/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-news_LZ01\">News für Geschäftsreisende</a></li></ul><ul>\n                    <li><a href=\"/p/view/bahnbusiness/gruene_geschaeftsreisen.shtml\">Nachhaltige Geschäftsreisen</a></li>\n                    <li><a href=\"/p/view/hilfe/bahn_de/hilfe_fk.shtml?dbkanal_007=L01_S01_D001_KIN0001_top-navi-flyout_geschaeftsreisen-hilfscenter_LZ01\">bahn.business Hilfecenter</a></li></ul>\n                \n                <div class=\"footer\">\n                    <p><b>Tipp:</b> </p>\n                    <a href=\"http://wagen-eins.de/\">Die neuesten Trends und hilfreiche Tipps für Business und Alltag lesen Sie in der aktuellen \"WAGEN EINS\"</a>\n                </div>\n            </div>\n        </li>\n        <li>\n            <a href=\"/p/view/urlaub/index.shtml?dbkanal_007=L01_S01_D001_KIN0004_top-navi-urlaub_LZ01\" class=\"menu-link\"><span>Städtereisen</span></a>\n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/urlaub/index.shtml?dbkanal_007=L01_S01_D001_KIN0002_BH_urlaub-flyout-uebersicht_LZ01\">Übersicht: Städtereisen</a></li>\n                    <li><a href=\"/p/view/urlaub/staedtereisen/staedtereisen.shtml?dbkanal_007=L01_S01_D001_KIN0001_urlaub-flyout-Staedtereisen_LZ01\">Bahn- und Städtereisen</a></li></ul><ul>\n                    <li><a href=\"/p/view/urlaub/hotel/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_urlaub-flyout-Hotels_LZ01\">Hotels und Unterkünfte</a></li>\n                    <li><a href=\"/p/view/urlaub/pauschalreisen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_urlaub-flyout-lastminute_LZ01\">Last Minute und Pauschalreisen</a></li></ul><ul>\n                    <li><a href=\"/p/view/urlaub/mietwagen/index.shtml?dbkanal_007=L01_S01_D001_KIN0001_urlaub-flyout-Mietwagen_LZ01\">Mietwagen und Carsharing</a></li>\n                    <li><a href=\"/p/view/urlaub/events/events.shtml?dbkanal_007=L01_S01_D001_KIN0001_urlaub-flyout-Events_LZ01\">Musicals und Events</a></li></ul>\n                \n                <div class=\"footer\">\n                    <p><b>Tipp:</b> </p>\n                    <a href=\"/p/view/urlaub/staedtereisen/sommerkampagne2017.shtml?dbkanal_007=L01_S01_D001_KIN0001_S_urlaub-flyout-tip_LZ01\">Nächster Halt: Sommer! Entdecken Sie Last Minute-Angebot rund um Ihren Urlaub.</a>\n                </div>\n            </div>\n        </li>\n    </ul>\n\t\n\t\n    <ul class=\"main-nav-right\">\n\t\n      <li class=\"mb\">\n        <a href=\"https://fahrkarten.bahn.de/privatkunde/start/start.post?scope=meinebahn&amp;lang=de&amp;country=DEU&amp;dbkanal_007=L01_S01_D001_KIN0004_TOP-NAVI-MEINE-BAHN_LZ01\" class=\"menu-link\"><span>Meine Bahn</span></a>\n        \n            <div class=\"clearfix\"><ul>\n                    <li><a href=\"/p/view/meinebahn/login.shtml\">Übersicht</a></li>\n                    <li><a href=\"https://www.bahn.de/-fahrkarten/privatkunde/start/start.post?from_page=meinebahn&amp;scope=meineletztebuchung&amp;lang=de&amp;country=DEU\">Meine letzten Buchungen bearbeiten</a></li></ul><ul>\n                    <li><a href=\"https://www.bahn.de/-fahrkarten/privatkunde/bahncardportal/bahncard_portal_start.post?from_page=meinebahn&amp;scope=bcpr&amp;lang=de&amp;country=DEU\">Meine Prämienpunkte einlösen</a></li>\n                    <li><a href=\"https://www.bahn.de/-fahrkarten/privatkunde/start/start.post?from_page=meinebahn&amp;scope=bahnregaendern&amp;lang=de&amp;country=DEU\">Meine Kontodaten bearbeiten</a></li></ul><ul>\n                    <li><a href=\"https://www.bahn.de/-fahrkarten/privatkunde/bahncardportal/bahncard_portal_start.post?from_page=meinebahn&amp;scope=bcinhaber&amp;lang=de&amp;country=DEU\">Meine BahnCard bearbeiten</a></li></ul>\n                \n            </div>\n      </li>\n      \n      <li class=\"loginform\">\n        <a href=\"https://fahrkarten.bahn.de/cache/start/start.post?lang=de&amp;scope=login&amp;dbkanal_007=L01_S01_D001_KIN0004_TOP-NAVI-LOGIN_LZ01\" class=\"menu-link\"><span>Login</span></a>\n        \n<div>\n\t<form id=\"lgn_cltype\">\n\t\t<fieldset>\n\t\t\t<div class=\"pullleft\">\n\t\t\t\t<input type=\"radio\" id=\"radio01\" name=\"lgn_cltype\" value=\"1\" checked=\"\">\n\t\t\t\t<label for=\"radio01\"><span></span>Privatkunden</label>\n\t\t\t</div>\n\t\t\t<div class=\"pullleft\">\n\t\t\t\t<input type=\"radio\" id=\"radio02\" name=\"lgn_cltype\" value=\"2\">\n\t\t\t\t<label for=\"radio02\"><span></span>Firmenkunden</label>\n\t\t\t</div>\n\t\t</fieldset>\n\t</form>\n\t<form action=\"https://fahrkarten.bahn.de/privatkunde/start/start.post\" id=\"login_form_customer\" method=\"post\" class=\"contentlogin active\" data-type=\"pk\" data-pos=\"ContentNavigation\">\n\t\t<input type=\"hidden\" name=\"lang\" value=\"de\">\n\t\t<input type=\"hidden\" name=\"country\" value=\"DEU\">\n\t\t<input type=\"hidden\" name=\"scope\" value=\"bahnde\">\n\t\t<div class=\"input-wrapper\">\n\t\t\t<input class=\"text\" id=\"mn-login-username\" type=\"text\" name=\"username\" value=\"\" maxlength=\"60\" autocomplete=\"off\" placeholder=\"Benutzername\">\n\t\t</div>\n\t\t<div class=\"input-wrapper\">\n\t\t\t<input class=\"text\" id=\"mn-login-password\" type=\"password\" name=\"password\" maxlength=\"80\" placeholder=\"Passwort\">\n\t\t</div>\n\t\t<input class=\"submit-btn\" type=\"submit\" name=\"login-submit\" value=\"Login\">\n\t\t<ul class=\"pullleft\">\n\t\t\t<li>\n\t\t\t\t<a href=\"https://fahrkarten.bahn.de/cache/start/start.post?scope=pwvergessen&amp;lang=de\">\n\t\t\t\tLogin-Daten vergessen?\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a href=\"https://fahrkarten.bahn.de/cache/start/start.post?scope=bahnreg&amp;lang=de\">\n\t\t\t\tErstmalig anmelden\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t</ul>\n\t</form>\n\t<form action=\"https://fahrkarten.bahn.de/grosskunde/start/kmu_start.post?scope=login\" id=\"login_form_business\" method=\"post\" class=\"contentlogin\" data-type=\"gk\" data-pos=\"ContentNavigation\">\n\t\t<input type=\"hidden\" name=\"lang\" value=\"de\">\n\t\t<input type=\"hidden\" name=\"country\" value=\"DEU\">\n\t\t<input type=\"hidden\" name=\"scope\" value=\"bahnde\">\n\t\t<div class=\"input-wrapper\">\n\t\t\t<input class=\"text\" id=\"mn-login-username-bs\" type=\"text\" name=\"username\" value=\"\" maxlength=\"60\" autocomplete=\"off\" placeholder=\"Benutzername\">\n\t\t</div>\n\t\t<div class=\"input-wrapper\">\n\t\t\t<input class=\"text\" id=\"mn-login-password-bs\" type=\"password\" name=\"password\" maxlength=\"80\" placeholder=\"Passwort\">\n\t\t</div>\n\t\t<input class=\"submit-btn\" type=\"submit\" name=\"login-submit\" value=\"Login\">\n\t\t<ul class=\"pullleft\">\n\t\t\t<li>\n\t\t\t\t<a href=\"https://fahrkarten.bahn.de/grosskunde/start/kmu_start.post?scope=pwvergessen&amp;lang=de\">\n\t\t\t\tLogin-Daten vergessen?\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a href=\"/app_firmenkunden_varianten_de_DEU.shtml\">\n\t\t\t\tErstmalig anmelden\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t</ul>\n\t</form>\n</div>\n     </li>\n</ul>"
-
-/***/ }),
-
-/***/ 181:
-/***/ (function(module, exports) {
-
-module.exports = "<h2>{{component.title}}</h2>"
-
-/***/ }),
-
-/***/ 182:
-/***/ (function(module, exports) {
-
-module.exports = "<div>\n\t<a href=\"/p/view/angebot/regio/laender_tickets.shtml?dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Laender-tickets-default_LZ01\">\n\t\t<img class=\"responsive-image\" src=\"{{env.damUrl}}{{component.image}}\"/>\n\t</a>\n\t\n\t<div class=\"text clearfix\">\n\t\t\n\t\t\t<h2 class=\"light\">{{component.title}}</h2>\n\t\t\t<form class=\"openurl\" action=\"/bin/openurl.pl\" method=\"get\">\n\t\n\t\t\t<div class=\"custom-select\">\n\t\t\t\t<select class=\"dropdown\" name=\"MEWurl\">\n\t\t\n\t\t\t\t\t<option value=\"/p/view/angebot/regio/laender_tickets.shtml?dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Laender-tickets-default_LZ01\" data-imgurl=\"\" data-target=\"\">Bitte wählen Sie Ihr Bundesland</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=1&amp;returnurl=https://www.bahn.de/regional/view/regionen/bawue/freizeit/bawue_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_BW-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Baden-Württemberg-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=2&amp;returnurl=https://www.bahn.de/regional/view/regionen/bayern/freizeit/bayernticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Bayern-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Bayern-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=3&amp;returnurl=https://www.bahn.de/regional/view/regionen/berlin_brbg/freizeit/brandenburgticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Berlin-BB-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Berlin (Brandenburg-Berlin-Ticket)</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=8&amp;returnurl=https://www.bahn.de/regional/view/regionen/niedersa/freizeit/niedersa_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Bremen-Niedersachsen-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Bremen (Niedersachsen-Ticket)</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=8&amp;returnurl=https://www.bahn.de/regional/view/regionen/niedersa/freizeit/niedersa_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Hamburg-Niedersachsen-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Hamburg (Niedersachsen-Ticket)</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/regional/view/regionen/hessen/freizeit/hessenticket.shtml?dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Hessen-Ticket_LZ01\" data-imgurl=\"\" data-target=\"\">Hessenticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=7&amp;returnurl=https://www.bahn.de/regional/view/regionen/meckpomm/freizeit/meckpomm_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_MV-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Mecklenburg-Vorpommern-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=8&amp;returnurl=https://www.bahn.de/regional/view/regionen/niedersa/freizeit/niedersa_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Niedersachsen-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Niedersachsen-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=10&amp;returnurl=https://www.bahn.de/regional/view/regionen/rhldpfalz/freizeit/rhldpfalz_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_RP-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Rheinland-Pfalz-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=11&amp;returnurl=https://www.bahn.de/p/view/angebot/regio/saar/saarland-ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Saarland-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Saarland-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=13&amp;returnurl=https://www.bahn.de/regional/view/regionen/sanhalt/freizeit/laenderticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Sachsen-Anhalt-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Sachsen-Anhalt-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=12&amp;returnurl=https://www.bahn.de/regional/view/regionen/sachsen/freizeit/sachsen_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Sachsen-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Sachsen-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=14&amp;returnurl=https://www.bahn.de/regional/view/regionen/schholst/freizeit/schholdt_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_SH-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Schleswig-Holstein-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=9&amp;returnurl=https://www.bahn.de/regional/view/regionen/nrw/freizeit/schoenertag_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_NRW-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">SchönerTagTicket NRW</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=15&amp;returnurl=https://www.bahn.de/regional/view/regionen/thuer/freizeit/laenderticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_Thueringen-Ticket_LZ08\" data-imgurl=\"\" data-target=\"\">Thüringen-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=20&amp;returnurl=https://www.bahn.de/p/view/angebot/regio/schoenes_wochenende_ticket.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_SWT_LZ08\" data-imgurl=\"\" data-target=\"\">Schönes-Wochenende-Ticket</option>\n\t\t\n\t\t\t\t\t<option value=\"https://www.bahn.de/-fahrkarten/privatkunde/pauschalpreisbuchen/pauschalpreis_start.post?angebotsgruppe=30&amp;returnurl=https://www.bahn.de/regional/view/regionen/freizeit/quer-durchs-land.shtml&amp;scope=standalone&amp;dbkanal_007=L01_S01_D001_KIN0001_Regio_TZ1_P1_BT_S_AL_QDL_LZ08\" data-imgurl=\"\" data-target=\"\">Quer-durchs-Land-Ticket</option>\n\t\t\n\t\t\t</select>\n\t </div> \n\t\t\t<input type=\"submit\" class=\"btn\" value=\"Weiter\">\n\t</form>\n\t</div>\n</div>"
-
-/***/ }),
-
-/***/ 183:
-/***/ (function(module, exports) {
-
-module.exports = "<table id=\"resultsOverview\" class=\"result js_adjustCellWidth \" cellspacing=\"0\" summary=\"Diese Tabelle zeigt die Ergebnisse Ihrer aktuellen Verbindungssuche\">\n<tr>\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<th *ngIf=\"column === 'departStation'\" class=\"station first\" style=\"width: 208px;\">Abfahrtsstation</th>\n\t<th *ngIf=\"column === 'arrivalStation'\" class=\"station first\" style=\"width: 208px;\">Ankunftstation</th>\n\t<th *ngIf=\"column === 'departure'\" class=\"time sort \" style=\"width: 167px;\">Abfahrtszeit</th>\n\t<th *ngIf=\"column === 'arrival'\" class=\"time sort \" style=\"width: 167px;\">Ankunftszeit</th>\n\t<th *ngIf=\"column === 'length'\" class=\"duration sort \" style=\"width: 73px;\">Dauer</th>\n\t<th *ngIf=\"column === 'stops'\" class=\"changes sort \" style=\"width: 72px;\">Umst.</th>\n\t<th *ngIf=\"column === 'type'\" class=\"products\" style=\"width: 78px;\">Produkte</th>\n\t<th *ngIf=\"column === 'price'\" class=\"farePep sort \" style=\"width: 217px;\">Sparangebote</th>\n\t<th *ngIf=\"column === 'flexPrice'\" class=\"fareStd sort \" style=\"width: 125px;\">Flexpreis</th>\n\t</ng-template>\n</tr>\n<tr *ngFor=\"let train of trains\" class=\"firstrow\">\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<td *ngIf=\"column === 'departStation'\" class=\"station first \" style=\"width: 208px;\">{{train.departStation}}</td>\n\t<td *ngIf=\"column === 'arrivalStation'\" class=\"station first \" style=\"width: 208px;\">{{train.arrivalStation}}</td>\n\t<td *ngIf=\"column === 'departure'\" class=\"time\" style=\"width: 167px;\">{{train.departure}}</td>\n\t<td *ngIf=\"column === 'arrival'\" class=\"time\" style=\"width: 167px;\">{{train.arrival}}</td>\n\t<td *ngIf=\"column === 'length'\" class=\"duration lastrow\">{{train.length}}</td>\n\t<td *ngIf=\"column === 'stops'\" class=\"changes lastrow\">{{train.stops}}</td>\n\t<td *ngIf=\"column === 'type'\" class=\"products lastrow\">{{train.type}}</td>\n\t<td *ngIf=\"column === 'price'\" class=\"farePep lastrow button-inside tablebutton borderright\"><span class=\"fareOutput\">{{train.price}}</span></td>\n\t<td *ngIf=\"column === 'flexPrice'\" class=\"farePep lastrow button-inside tablebutton borderright\"><span class=\"fareOutput\">{{train.flexPrice}}</span></td>\n\t</ng-template>\n</tr>\n</table>"
-
-/***/ }),
-
-/***/ 184:
-/***/ (function(module, exports) {
-
-module.exports = "<h1>{{component.title}}</h1>"
-
-/***/ }),
-
-/***/ 216:
+/***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(90);
+module.exports = __webpack_require__(91);
 
 
 /***/ }),
 
-/***/ 25:
+/***/ 26:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1219,22 +1263,22 @@ module.exports = __webpack_require__(90);
 // The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    restUrl: "http://localhost:8080/deutsche-bahn-poc-webapp/.rest/nodes/page/",
-    damUrl: "http://localhost:8080/deutsche-bahn-poc-webapp/dam/",
-    magnoliaPageNode: "/bahn",
+    restUrl: "http://localhost:8080/angular-concept-webapp/.rest/nodes/page/",
+    damUrl: "http://localhost:8080/angular-concept-webapp/dam/",
+    magnoliaPageNode: "/train",
     magnoliaPageNodeDepth: 10,
-    staticFilePath: "http://localhost:8080/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/src"
+    staticFilePath: "http://localhost:8080/angular-concept-webapp/.resources/angular-standalone/webresources/angular-app/src"
 };
 //# sourceMappingURL=environment.js.map
 
 /***/ }),
 
-/***/ 36:
+/***/ 37:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_magnolia_context_service__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AbstractArea; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1276,7 +1320,7 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 63:
+/***/ 64:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1347,7 +1391,7 @@ TrainService = __decorate([
 
 /***/ }),
 
-/***/ 64:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1384,7 +1428,7 @@ WindowRef = __decorate([
 
 /***/ }),
 
-/***/ 89:
+/***/ 90:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -1393,20 +1437,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 89;
+webpackEmptyContext.id = 90;
 
 
 /***/ }),
 
-/***/ 90:
+/***/ 91:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(26);
 
 
 
@@ -1419,12 +1463,12 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 97:
+/***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(97);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1451,27 +1495,27 @@ AppRoutingModule = __decorate([
 
 /***/ }),
 
-/***/ 98:
+/***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__magnolia_app_magnolia_module__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_train_service__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__areas_main_main_component__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__areas_schedule_schedule_component__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing_module__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_app_app_component__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_title_title_component__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_subtitle_subtitle_component__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_header_header_component__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_footer_footer_component__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_navigation_navigation_component__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_text_image_text_image_component__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_time_table_time_table_component__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__magnolia_app_magnolia_module__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_train_service__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__areas_main_main_component__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__areas_schedule_schedule_component__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing_module__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_app_app_component__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_title_title_component__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_subtitle_subtitle_component__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_header_header_component__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_footer_footer_component__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_navigation_navigation_component__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_text_image_text_image_component__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_time_table_time_table_component__ = __webpack_require__(108);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1537,51 +1581,7 @@ AppModule = __decorate([
 
 //# sourceMappingURL=app.module.js.map
 
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__ = __webpack_require__(36);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainComponent; });
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-var MainComponent = (function (_super) {
-    __extends(MainComponent, _super);
-    function MainComponent() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MainComponent;
-}(__WEBPACK_IMPORTED_MODULE_1__magnolia_app_area_abstract_area__["a" /* AbstractArea */]));
-MainComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
-        selector: "[main-area]",
-        template: __webpack_require__(175),
-        styles: [__webpack_require__(165)]
-    })
-], MainComponent);
-
-//# sourceMappingURL=main.component.js.map
-
 /***/ })
 
-},[216]);
+},[217]);
 //# sourceMappingURL=main.bundle.js.map

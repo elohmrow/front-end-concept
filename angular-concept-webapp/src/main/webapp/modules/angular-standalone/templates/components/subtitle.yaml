@@ -1,3 +1,3 @@
 renderType: freemarker
-title: Deutsche Bahn Subtitle
-dialog: deutsche-bahn:components/subtitle
+title: Train Station Subtitle
+dialog: angular-standalone:components/subtitle

@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Angular4Heroes</title>
-		<base href="/deutsche-bahn-poc-webapp/bahn">
+		<title>Angular concept</title>
+		<base href="${ctx.contextPath}/train">
 		
 		<meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="https://www.bahn.de/common/view/static/1495468621/responsive/css/portal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	
+		<style>
+			body {
+				padding: 0px;
+				margin-top: 0px!important;
+			}
+		</style>
 		
 		[@cms.page /]
 		
@@ -20,10 +28,10 @@
 	<body>
 		<my-app>Loading AppComponent content here ...</my-app>
 		
-		<script type="text/javascript" src="/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/dist/inline.bundle.js"></script>
-		<script type="text/javascript" src="/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/dist/polyfills.bundle.js"></script>
-		<script type="text/javascript" src="/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/dist/vendor.bundle.js"></script>
-		<script type="text/javascript" src="/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/dist/main.bundle.js"></script>
-		<script type="text/javascript" src="/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/dist/styles.bundle.js"></script>
+		<script type="text/javascript" src="${ctx.contextPath}/.resources/angular-standalone/webresources/angular-app/dist/inline.bundle.js"></script>
+		<script type="text/javascript" src="${ctx.contextPath}/.resources/angular-standalone/webresources/angular-app/dist/polyfills.bundle.js"></script>
+		<script type="text/javascript" src="${ctx.contextPath}/.resources/angular-standalone/webresources/angular-app/dist/vendor.bundle.js"></script>
+		<script type="text/javascript" src="${ctx.contextPath}/.resources/angular-standalone/webresources/angular-app/dist/main.bundle.js"></script>
+		<script type="text/javascript" src="${ctx.contextPath}/.resources/angular-standalone/webresources/angular-app/dist/styles.bundle.js"></script>
 	</body>
 </html>

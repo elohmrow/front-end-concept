@@ -1,0 +1,22 @@
+.mgn-train-time-table {
+	border-spacing: 2px;
+	border-collapse: separate;
+}
+
+.mgn-train-time-table th {
+	padding: 5px;
+	text-transform: uppercase;
+	background-color: darkgray;
+	color: white;
+}
+
+.mgn-train-time-table td {
+	padding: 5px;
+	border-left: 1px darkgray solid;
+	border-bottom: 1px darkgray solid;
+}
+
+.mgn-train-time-table td:last-child {
+	padding: 5px;
+	border-right: 1px darkgray solid;
+}

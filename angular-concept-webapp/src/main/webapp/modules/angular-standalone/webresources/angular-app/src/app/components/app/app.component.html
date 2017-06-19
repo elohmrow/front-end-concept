@@ -1,25 +1,22 @@
-<div id="doc">
-	<!-- Header -->
-	<header id="header"></header>
-	
-	<!-- Navigation -->
-	<nav class="red"></nav>
-	
-	<!-- Content -->
-	<div class="content clearfix" *ngIf="isDataLoaded">
-		<!-- Main areas -->
-		<div class="section clearfix ">
-			<div class="modul bild-teaser-auswahlliste js-dropdown-sets-image twoCol" areaName="left" cms-area main-area></div>
-		
-			<div class="modul bild-teaser-auswahlliste js-dropdown-sets-image twoCol" areaName="right" cms-area main-area></div>
-		</div>
-		
-		<!-- Schedule area -->
-		<div class="section clearfix full-width">
-			<div class="modul marketing-teaser" areaName="schedule" cms-area schedule-area></div>
-		</div>
+<!-- Header -->
+<nav class="navbar navbar-default mgn-train-header"></nav>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default affix-top mgn-train-navigation"></nav>
+
+<!-- Content -->
+<div class="container" *ngIf="isDataLoaded">
+	<!-- Main areas -->
+	<div class="row">
+		<div class="col-xs-12 col-md-6" areaName="left" cms-area main-area></div>
+		<div class="col-xs-12 col-md-6" areaName="right" cms-area main-area></div>
 	</div>
 	
-	<!-- Footer -->
-	<footer class="clearfix"></footer>
+	<!-- Schedule area -->
+	<div class="row">
+		<div class="col-xs-12" areaName="schedule" cms-area schedule-area></div>
+	</div>
 </div>
+
+<!-- Footer -->
+<footer class="mgn-train-footer"></footer>

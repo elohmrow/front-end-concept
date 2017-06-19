@@ -5,9 +5,9 @@
 
 export const environment = {
 	production: false,
-	restUrl: "http://localhost:8080/deutsche-bahn-poc-webapp/.rest/nodes/page/",
-	damUrl: "http://localhost:8080/deutsche-bahn-poc-webapp/dam/",
-	magnoliaPageNode: "/bahn",
+	restUrl: "http://localhost:8080/angular-concept-webapp/.rest/nodes/page/",
+	damUrl: "http://localhost:8080/angular-concept-webapp/dam/",
+	magnoliaPageNode: "/train",
 	magnoliaPageNodeDepth: 10,
-	staticFilePath: "http://localhost:8080/deutsche-bahn-poc-webapp/.resources/deutsche-bahn/webresources/angular-app/src"
+	staticFilePath: "http://localhost:8080/angular-concept-webapp/.resources/angular-standalone/webresources/angular-app/src"
 };
