@@ -27,3 +27,5 @@
 ```
 modelClass: info.magnolia.services.dbahn.angular.model.DefinitionExtractorModel
 ```
+
+* Don't forget to allow anonymous to access the rest servlet and the website workspace
