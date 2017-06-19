@@ -18,7 +18,7 @@
 
 ```
 <script>
-	window.singlePageConfig = ${model.getSinglePageConfig(content)};window.singlePageConfig = ${model.getSinglePageConfig(content)};
+	window.singlePageConfig = ${model.getSinglePageConfig(content)};
 </script>
 ```
 
