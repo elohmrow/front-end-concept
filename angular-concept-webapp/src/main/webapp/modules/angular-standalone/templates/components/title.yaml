@@ -1,0 +1,3 @@
+renderType: freemarker
+title: Deutsche Bahn Title
+dialog: deutsche-bahn:components/title

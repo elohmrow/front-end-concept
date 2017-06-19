@@ -1,0 +1,45 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: selectColumns
+          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+          label: Select columns
+          field:
+            name: column
+            class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+            label: Column
+            options:
+              - name: departStation
+                value: departStation
+                selected: true
+                label: Departure station
+              - name: arrivalStation
+                value: arrivalStation
+                label: Arrival station
+              - name: departure
+                value: departure
+                label: Departure time
+              - name: arrival
+                value: arrival
+                label: Arrival time
+              - name: length
+                value: length
+                label: Duration
+              - name: stops
+                value: stops
+                label: Num stops
+              - name: type
+                value: type
+                label: Type
+              - name: price
+                value: price
+                label: Price
+              - name: flexPrice
+                value: flexPrice
+                label: Flex price
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

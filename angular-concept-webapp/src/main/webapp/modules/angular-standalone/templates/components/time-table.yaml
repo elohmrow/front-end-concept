@@ -1,0 +1,3 @@
+renderType: freemarker
+title: Deutsche Bahn Time table
+dialog: deutsche-bahn:components/time-table

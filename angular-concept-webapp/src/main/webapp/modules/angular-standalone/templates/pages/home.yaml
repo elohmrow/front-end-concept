@@ -1,0 +1,29 @@
+templateScript: /deutsche-bahn/templates/pages/home.ftl
+renderType: freemarker
+visible: true
+title: Deustche Bahn page
+modelClass: info.magnolia.services.dbahn.angular.model.DefinitionExtractorModel
+areas:
+  left:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: deutsche-bahn:components/title
+      subtitle:
+        id: deutsche-bahn:components/subtitle
+      text-image:
+        id: deutsche-bahn:components/text-image
+  right:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: deutsche-bahn:components/title
+      subtitle:
+        id: deutsche-bahn:components/subtitle
+      text-image:
+        id: deutsche-bahn:components/text-image
+  schedule:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: deutsche-bahn:components/time-table

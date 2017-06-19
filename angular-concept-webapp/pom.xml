@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>info.magnolia.concept.angular</groupId>
+        <artifactId>angular-concept</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>angular-concept-webapp</artifactId>
+    <name>angular-concept: webapp</name>
+    <packaging>war</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>info.magnolia.eebundle</groupId>
+            <artifactId>magnolia-enterprise-standard-webapp</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.eebundle</groupId>
+            <artifactId>magnolia-enterprise-standard-webapp</artifactId>
+            <type>war</type>
+        </dependency>
+
+        <!-- Integration module -->
+        <dependency>
+            <groupId>info.magnolia.concept.angular</groupId>
+            <artifactId>angular-concept-integration</artifactId>
+        </dependency>
+
+        <!-- JSON fn module -->
+        <dependency>
+            <groupId>info.magnolia.templating</groupId>
+            <artifactId>magnolia-jsonfn</artifactId>
+        </dependency>
+        <!-- Swagger module -->
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-tools</artifactId>
+        </dependency>
+        <!-- Cross domain module -->
+        <dependency>
+            <groupId>info.magnolia.tools</groupId>
+            <artifactId>magnolia-cors-filter</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <!-- exclude jars copied "physically" from the webapp 
+                        overlay - so we only get those resolved by Maven's dependency management -->
+                    <dependentWarExcludes>WEB-INF/lib/*.jar</dependentWarExcludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

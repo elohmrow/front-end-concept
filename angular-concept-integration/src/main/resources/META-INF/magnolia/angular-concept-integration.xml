@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+    <name>angular-concept-integration</name>
+    <displayName>${project.name}</displayName>
+    <description>${project.description}</description>
+    <class>info.magnolia.concept.angular.integration.AngularConceptIntegrationModule</class>
+    <versionHandler>info.magnolia.concept.angular.integration.setup.AngularConceptIntegrationModuleVersionHandler</versionHandler>
+    <version>${project.version}</version>
+
+    <components>
+        <id>main</id>
+        <component>
+            <type>info.magnolia.concept.angular.integration.util.JsonFnUtil</type>
+            <implementation>info.magnolia.concept.angular.integration.util.JsonFnUtil</implementation>
+        </component>
+    </components>
+
+    <dependencies>
+        <dependency>
+            <name>core</name>
+            <version>5.5/*</version>
+        </dependency>
+    </dependencies>
+</module>
