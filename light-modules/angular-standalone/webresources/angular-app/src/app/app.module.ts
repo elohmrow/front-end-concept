@@ -1,4 +1,4 @@
-import { NgModule }      			from '@angular/core';
+import { NgModule}      			from '@angular/core';
 import { BrowserModule } 			from '@angular/platform-browser';
 import { FormsModule }   			from '@angular/forms';
 import { HttpModule }    			from '@angular/http';
@@ -8,10 +8,6 @@ import { MagnoliaModule } 			from '../magnolia-app/magnolia.module';
 
 //Services
 import { TrainService }   			from './services/train.service';
-
-//Area
-import { MainComponent } 			from './areas/main/main.component';
-import { ScheduleComponent } 		from './areas/schedule/schedule.component';
 
 //Components
 import { AppRoutingModule }   		from './app-routing.module';
@@ -35,9 +31,6 @@ import { TimeTableComponent } 		from './components/time-table/time-table.compone
   	declarations: [ 
 		AppComponent,
 		
-		MainComponent, 
-		ScheduleComponent,
-		
 		TitleComponent, 
 		SubtitleComponent, 
 		HeaderComponent, 
@@ -45,6 +38,12 @@ import { TimeTableComponent } 		from './components/time-table/time-table.compone
 		NavigationComponent, 
 		TextImageComponent, 
 		TimeTableComponent
+	],
+	entryComponents: [ 
+	    TitleComponent,
+	    TextImageComponent,
+	    SubtitleComponent,
+	    TimeTableComponent
 	],
 	providers: [
 	    TrainService 

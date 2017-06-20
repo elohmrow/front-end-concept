@@ -1,4 +1,4 @@
-import { Directive, ElementRef, OnInit, Input } from '@angular/core';
+import { Directive, ElementRef, OnInit, Input, ViewContainerRef } from '@angular/core';
 
 import { MagnoliaContextService } from '../services/magnolia-context.service';
 
@@ -16,7 +16,11 @@ export class ComponentDirective implements OnInit {
 	/**
 	 * Constructor.
 	 */
-	constructor(private el: ElementRef, private mgnCtxService: MagnoliaContextService) {
+	constructor(
+		private el: ElementRef, 
+		private mgnCtxService: MagnoliaContextService,
+		public viewContainerRef: ViewContainerRef
+	) {
 		this.nativeElement = el.nativeElement;
 	}
 	
@@ -97,5 +101,9 @@ export class ComponentDirective implements OnInit {
     	} else {
     		return "";
     	}
+    }
+    
+    getComponent(): any {
+    	return this.component;
     }
 }

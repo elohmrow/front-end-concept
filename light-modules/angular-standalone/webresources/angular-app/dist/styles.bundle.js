@@ -1,21 +1,21 @@
 webpackJsonp([2,4],{
 
-/***/ 165:
+/***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(false);
+exports = module.exports = __webpack_require__(8)(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* Master Styles */\nh1 {\n  color: #369;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 250%;\n}\nh2, h3 {\n  color: #444;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: lighter;\n}\nbody {\n  margin: 2em;\n}\nbody, input[text], button {\n  color: #888;\n  font-family: Cambria, Georgia;\n}\n/* . . . */\n/* everywhere else */\n* {\n  font-family: Arial, Helvetica, sans-serif;\n}\n", ""]);
+exports.push([module.i, "body {\n\tpadding: 0px;\n\tmargin-top: 0px!important;\n}\n\n.list-inline a {\n    color: #FFF;\n    text-transform: uppercase;\n    text-decoration: none;\n}\n\n.mgn-train-header{\n\tbackground-color: #6A9000;\n\tmargin-bottom: 0px!important;\n}\n.navbar-default .navbar-nav > li > a {\n    color: #FFF!important;\n    text-transform: uppercase;\n}\n\n.mgn-train-navigation {\n\tbackground-color: #9BB454;\n}\n\n.mgn-train-footer {\n\tbackground-color: #2A3E00;\n\tpadding: 15px;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}\n\n.navbar-brand {\n\tpadding: 7px 15px 15px 15px!important;\n}\n\n.mgn-train-section {\n\tpadding-top: 20px;\n\tpadding-bottom: 20px;\n}\n\n.navbar {\n    border-radius: 0px!important;\n}\n.navbar-default {\n    border-width: 0px!important;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 215:
+/***/ 213:
 /***/ (function(module, exports) {
 
 /*
@@ -268,15 +268,15 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 219:
+/***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(93);
+module.exports = __webpack_require__(99);
 
 
 /***/ }),
 
-/***/ 5:
+/***/ 8:
 /***/ (function(module, exports) {
 
 /*
@@ -359,16 +359,16 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 93:
+/***/ 99:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(165);
+var content = __webpack_require__(166);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(215)(content, {});
+var update = __webpack_require__(213)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -386,5 +386,5 @@ if(false) {
 
 /***/ })
 
-},[219]);
+},[217]);
 //# sourceMappingURL=styles.bundle.js.map
