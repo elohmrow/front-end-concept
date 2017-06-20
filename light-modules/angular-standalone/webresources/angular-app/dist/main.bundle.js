@@ -831,7 +831,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, ".mgn-train-header{\n\tbackground-color: #6A9000;\n\tmargin-bottom: 0px!important;\n}\n\n.mgn-train-navigation {\n\tbackground-color: #9BB454;\n}\n\n.mgn-train-footer {\n\tbackground-color: #2A3E00;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}", ""]);
+exports.push([module.i, ".mgn-train-header{\n\tbackground-color: #6A9000;\n\tmargin-bottom: 0px!important;\n}\n.navbar-default .navbar-nav > li > a {\n    color: #FFF!important;\n}\n\n.mgn-train-navigation {\n\tbackground-color: #9BB454;\n}\n\n.mgn-train-footer {\n\tbackground-color: #2A3E00;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}", ""]);
 
 // exports
 
