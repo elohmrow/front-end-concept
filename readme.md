@@ -3,6 +3,7 @@
 * Add the rest role to anonymous
 * Allow anonymous to access the website node
 * Remove default config in the CORS filter
+* Create a symbolic link: /light-modules/angular-standalone to /angular-concept-webapp/src/main/webapp/modules
 
 ### Angular
 * Download the [Angular CLI library](https://cli.angular.io/)
