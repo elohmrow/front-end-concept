@@ -38,7 +38,7 @@
 * Add the following line in the page descriptor
 
 ```
-modelClass: info.magnolia.concept.angular.integration.model.DefinitionExtractorModel
+modelClass: info.magnolia.concept.frontend.integration.model.DefinitionExtractorModel
 ```
 
 
@@ -79,9 +79,9 @@ import { SubtitleComponent } 	from '../app/components/subtitle/subtitle.componen
 import { TimeTableComponent } 	from '../app/components/time-table/time-table.component';
 
 export const COMPONENTS = {
-	"angular-standalone:components/title": TitleComponent,
-	"angular-standalone:components/text-image": TextImageComponent,
-	"angular-standalone:components/subtitle": SubtitleComponent,
-	"angular-standalone:components/time-table": TimeTableComponent
+	"magnolia-train-station:components/title": TitleComponent,
+	"magnolia-train-station:components/text-image": TextImageComponent,
+	"magnolia-train-station:components/subtitle": SubtitleComponent,
+	"magnolia-train-station:components/time-table": TimeTableComponent
 };
 ```
