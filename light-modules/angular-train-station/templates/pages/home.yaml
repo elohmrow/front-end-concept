@@ -1,0 +1,29 @@
+templateScript: /angular-train-station/templates/pages/home.ftl
+renderType: freemarker
+visible: true
+title: Angular Train station page
+modelClass: info.magnolia.concept.frontend.integration.model.DefinitionExtractorModel
+areas:
+  left:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: magnolia-train-station:components/title
+      subtitle:
+        id: magnolia-train-station:components/subtitle
+      text-image:
+        id: magnolia-train-station:components/text-image
+  right:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: magnolia-train-station:components/title
+      subtitle:
+        id: magnolia-train-station:components/subtitle
+      text-image:
+        id: magnolia-train-station:components/text-image
+  schedule:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: magnolia-train-station:components/time-table

@@ -1,0 +1,3 @@
+renderType: freemarker
+title: Train Station Subtitle
+dialog: magnolia-train-station:components/subtitle

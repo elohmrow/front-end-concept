@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+    <name>front-end-concept-integration</name>
+    <displayName>${project.name}</displayName>
+    <description>${project.description}</description>
+    <class>info.magnolia.concept.frontend.integration.FrontEndConceptIntegrationModule</class>
+    <versionHandler>info.magnolia.concept.frontend.integration.setup.FrontEndConceptIntegrationModuleVersionHandler</versionHandler>
+    <version>${project.version}</version>
+
+    <components>
+        <id>main</id>
+        <component>
+            <type>info.magnolia.concept.frontend.integration.util.JsonFnUtil</type>
+            <implementation>info.magnolia.concept.frontend.integration.util.JsonFnUtil</implementation>
+        </component>
+    </components>
+
+    <dependencies>
+        <dependency>
+            <name>core</name>
+            <version>5.5/*</version>
+        </dependency>
+        <dependency>
+            <name>jsonfn</name>
+            <version>1.0.7/*</version>
+        </dependency>
+    </dependencies>
+</module>

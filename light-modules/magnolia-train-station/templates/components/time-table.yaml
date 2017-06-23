@@ -1,0 +1,3 @@
+renderType: freemarker
+title: Train Station Time table
+dialog: magnolia-train-station:components/time-table

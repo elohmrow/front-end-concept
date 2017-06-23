@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:jcrfn="http://www.jcp.org/jcr/xpath-functions/1.0" xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mgnl="http://www.magnolia.info/jcr/mgnl" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" sv:name="train-angular">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:page</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>bb5fb83d-32b9-4717-a65c-d96cd1d9bb98</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-06-23T12:47:13.169+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2017-06-23T12:56:31.332+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:template" sv:type="String">
+    <sv:value>angular-train-station:pages/home</sv:value>
+  </sv:property>
+  <sv:property sv:name="title" sv:type="String">
+    <sv:value>Magnolia train station (Angular)</sv:value>
+  </sv:property>
+  <sv:node sv:name="left">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>466f7cc9-a413-4274-a7c1-7d16a118c66b</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-06-23T12:47:59.123+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2017-06-23T12:55:59.516+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9c586155-2b93-4eea-84ff-258989b1de75</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-06-23T12:54:38.360+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-06-23T12:54:38.360+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/title</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Our trains</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="00">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>20d094ca-82cd-4cf1-8bdd-49eb116ebac9</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:98b38a4f-ee38-4c7a-ada4-037ec5cf12af</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-06-23T12:55:59.517+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-06-23T12:55:59.517+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/text-image</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Check out our trains</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="right">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>334e6a2a-e585-4ac6-b165-44a15fe91339</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-06-23T12:48:01.452+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-06-23T12:48:01.453+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2017-06-23T12:56:21.292+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e1c42c7a-adce-4afa-a58c-85d32af1373a</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-06-23T12:54:54.665+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-06-23T12:54:54.665+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/title</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Our stations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="00">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>677b248f-4372-4dc0-a178-128dba995351</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:9327c4fa-135b-486d-bb7c-b66f4f3922e9</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-06-23T12:56:21.292+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-06-23T12:56:21.292+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/text-image</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Check out our stations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="schedule">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4294f5e3-3ebf-4466-a9d0-20dfae6f8556</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-06-23T12:48:07.337+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-06-23T12:48:07.339+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2017-06-23T12:56:31.332+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3eda9837-5481-436d-a50e-e683685444f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-06-23T12:48:27.628+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-06-23T12:56:31.332+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/time-table</sv:value>
+      </sv:property>
+      <sv:property sv:name="selectColumns" sv:type="String" sv:multiple="true">
+        <sv:value>departStation</sv:value>
+        <sv:value>arrivalStation</sv:value>
+        <sv:value>price</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
+
