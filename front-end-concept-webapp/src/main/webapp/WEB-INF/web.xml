@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
-         xmlns:j2ee="http://java.sun.com/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-         metadata-complete="true">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:j2ee="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
   <description>Magnolia</description>
   <display-name>magnolia</display-name>
-  <distributable />
+  <distributable/>
   <filter>
     <display-name>Magnolia global filters</display-name>
     <filter-name>magnoliaFilterChain</filter-name>
@@ -33,24 +29,6 @@
     <param-name>heartbeatInterval</param-name>
     <param-value>90</param-value>
   </context-param>
-  <!-- These are the default paths searched for magnolia configuration. Uncomment if you need to customize these.
-    Your container might also do its own variables substitution here. Tomcat, for instance, allows you to use
-    system properties, such as ${user.home}.
-  -->
-  <!--
-    <context-param>
-    <param-name>magnolia.initialization.file</param-name>
-    <param-value>
-    WEB-INF/config/${servername}/${contextPath}/magnolia.properties,
-    WEB-INF/config/${servername}/${webapp}/magnolia.properties,
-    WEB-INF/config/${servername}/magnolia.properties,
-    WEB-INF/config/${contextPath}/magnolia.properties,
-    WEB-INF/config/${webapp}/magnolia.properties,
-    WEB-INF/config/default/magnolia.properties,
-    WEB-INF/config/magnolia.properties
-    </param-value>
-    </context-param>
-  -->
   <jsp-config>
     <jsp-property-group>
       <url-pattern>*.jsp</url-pattern>

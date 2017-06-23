@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>info.magnolia.concept.angular</groupId>
-    <artifactId>angular-concept</artifactId>
-    <name>angular-concept (parent pom)</name>
+    <groupId>info.magnolia.concept.frontend</groupId>
+    <artifactId>front-end-concept</artifactId>
+    <name>front-end-concept (parent pom)</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -35,8 +35,8 @@
 
             <!-- Integration module -->
             <dependency>
-                <groupId>info.magnolia.concept.angular</groupId>
-                <artifactId>angular-concept-integration</artifactId>
+                <groupId>info.magnolia.concept.frontend</groupId>
+                <artifactId>front-end-concept-integration</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -137,7 +137,7 @@
     </repositories>
 
     <modules>
-        <module>angular-concept-webapp</module>
-        <module>angular-concept-integration</module>
+        <module>front-end-concept-webapp</module>
+        <module>front-end-concept-integration</module>
     </modules>
 </project>

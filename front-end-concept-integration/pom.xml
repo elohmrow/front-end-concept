@@ -3,13 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>angular-concept</artifactId>
-        <groupId>info.magnolia.concept.angular</groupId>
+        <artifactId>front-end-concept</artifactId>
+        <groupId>info.magnolia.concept.frontend</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>angular-concept-integration</artifactId>
+    <artifactId>front-end-concept-integration</artifactId>
     <packaging>jar</packaging>
-    <name>angular-concept-integration Magnolia Module</name>
+    <name>front-end-concept-integration Magnolia Module</name>
 
     <dependencies>
         <dependency>

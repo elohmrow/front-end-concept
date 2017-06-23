@@ -3,13 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>info.magnolia.concept.angular</groupId>
-        <artifactId>angular-concept</artifactId>
+        <groupId>info.magnolia.concept.frontend</groupId>
+        <artifactId>front-end-concept</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>angular-concept-webapp</artifactId>
-    <name>angular-concept: webapp</name>
+    <artifactId>front-end-concept-webapp</artifactId>
+    <name>front-end-concept: webapp</name>
     <packaging>war</packaging>
     <dependencies>
         <dependency>
@@ -25,8 +25,8 @@
 
         <!-- Integration module -->
         <dependency>
-            <groupId>info.magnolia.concept.angular</groupId>
-            <artifactId>angular-concept-integration</artifactId>
+            <groupId>info.magnolia.concept.frontend</groupId>
+            <artifactId>front-end-concept-integration</artifactId>
         </dependency>
 
         <!-- JSON fn module -->
