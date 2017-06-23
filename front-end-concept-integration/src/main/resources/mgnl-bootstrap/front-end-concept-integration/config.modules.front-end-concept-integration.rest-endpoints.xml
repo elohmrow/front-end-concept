@@ -11,7 +11,7 @@
       <sv:value>info.magnolia.rest.service.node.definition.ConfiguredNodeEndpointDefinition</sv:value>
     </sv:property>
     <sv:property sv:name="implementationClass" sv:type="String">
-      <sv:value>info.magnolia.concept.angular.integration.endpoint.PageNode</sv:value>
+      <sv:value>info.magnolia.concept.frontend.integration.endpoint.PageNode</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

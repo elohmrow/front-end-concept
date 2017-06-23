@@ -4,8 +4,8 @@
     <name>front-end-concept-integration</name>
     <displayName>${project.name}</displayName>
     <description>${project.description}</description>
-    <class>info.magnolia.concept.frontend.integration.AngularConceptIntegrationModule</class>
-    <versionHandler>info.magnolia.concept.frontend.integration.setup.AngularConceptIntegrationModuleVersionHandler</versionHandler>
+    <class>info.magnolia.concept.frontend.integration.FrontEndConceptIntegrationModule</class>
+    <versionHandler>info.magnolia.concept.frontend.integration.setup.FrontEndConceptIntegrationModuleVersionHandler</versionHandler>
     <version>${project.version}</version>
 
     <components>
