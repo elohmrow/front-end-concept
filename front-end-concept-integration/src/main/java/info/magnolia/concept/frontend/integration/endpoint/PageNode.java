@@ -12,9 +12,9 @@
  * intact.
  *
  */
-package info.magnolia.concept.angular.integration.endpoint;
+package info.magnolia.concept.frontend.integration.endpoint;
 
-import info.magnolia.concept.angular.integration.util.JsonFnUtil;
+import info.magnolia.concept.frontend.integration.util.JsonFnUtil;
 import info.magnolia.context.MgnlContext;
 import info.magnolia.jcr.util.ContentMap;
 import info.magnolia.rest.AbstractEndpoint;

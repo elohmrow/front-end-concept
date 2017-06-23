@@ -1,4 +1,4 @@
-package info.magnolia.concept.angular.integration.setup;
+package info.magnolia.concept.frontend.integration.setup;
 
 import info.magnolia.module.DefaultModuleVersionHandler;
 

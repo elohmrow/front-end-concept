@@ -12,7 +12,7 @@
  * intact.
  *
  */
-package info.magnolia.concept.angular.integration.util;
+package info.magnolia.concept.frontend.integration.util;
 
 import info.magnolia.jcr.util.ContentMap;
 import info.magnolia.templating.jsonfn.JsonTemplatingFunctions;

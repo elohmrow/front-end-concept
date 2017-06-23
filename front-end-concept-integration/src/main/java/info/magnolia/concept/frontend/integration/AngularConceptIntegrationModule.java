@@ -1,4 +1,4 @@
-package info.magnolia.concept.angular.integration;
+package info.magnolia.concept.frontend.integration;
 
 /**
  * This class is optional and represents the configuration for the angular-concept-integration module.

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd" >
 <module>
-    <name>angular-concept-integration</name>
+    <name>front-end-concept-integration</name>
     <displayName>${project.name}</displayName>
     <description>${project.description}</description>
-    <class>info.magnolia.concept.angular.integration.AngularConceptIntegrationModule</class>
-    <versionHandler>info.magnolia.concept.angular.integration.setup.AngularConceptIntegrationModuleVersionHandler</versionHandler>
+    <class>info.magnolia.concept.frontend.integration.AngularConceptIntegrationModule</class>
+    <versionHandler>info.magnolia.concept.frontend.integration.setup.AngularConceptIntegrationModuleVersionHandler</versionHandler>
     <version>${project.version}</version>
 
     <components>
         <id>main</id>
         <component>
-            <type>info.magnolia.concept.angular.integration.util.JsonFnUtil</type>
-            <implementation>info.magnolia.concept.angular.integration.util.JsonFnUtil</implementation>
+            <type>info.magnolia.concept.frontend.integration.util.JsonFnUtil</type>
+            <implementation>info.magnolia.concept.frontend.integration.util.JsonFnUtil</implementation>
         </component>
     </components>
 
