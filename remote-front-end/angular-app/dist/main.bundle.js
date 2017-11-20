@@ -1077,11 +1077,11 @@ module.exports = __webpack_require__(97);
 // The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    restUrl: "http://localhost:8080/front-end-concept-webapp/.rest/nodes/page/",
-    damUrl: "http://localhost:8080/front-end-concept-webapp/dam/",
+    restUrl: "http://localhost:8080/.rest/nodes/page/",
+    damUrl: "http://localhost:8080/dam/",
     magnoliaPageNode: "/train-angular",
     magnoliaPageNodeDepth: 10,
-    staticFilePath: "http://localhost:8080/front-end-concept-webapp/.resources/angular-train-station/webresources"
+    staticFilePath: "http://localhost:8080/.resources/angular-train-station/webresources"
 };
 //# sourceMappingURL=environment.js.map
 

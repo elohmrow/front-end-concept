@@ -11,3 +11,13 @@
 /**/.DS_Store
 /**/repositories
 /**/magnolia-activation-keypair.properties
+/**/.idea
+*.iml
+*.ipr
+*.iws
+/**/.checkstyle
+/**/rebel.xml
+/**/file/**/*.bin
+/**/cache/**/*.meta
+/**/cache/**/*.data
+/**/cache/**/*.index

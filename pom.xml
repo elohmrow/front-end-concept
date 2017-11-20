@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
 
     <properties>
-        <magnoliaVersion>5.5.4</magnoliaVersion>
+        <magnoliaVersion>5.5.7</magnoliaVersion>
         <javaVersion>1.8</javaVersion>
         <magnoliaJsonfnVersion>1.0.7</magnoliaJsonfnVersion>
-        <restModuleVersion>1.2</restModuleVersion>
+
         <corsVersion>1.3</corsVersion>
     </properties>
 
@@ -46,25 +46,7 @@
                 <artifactId>magnolia-jsonfn</artifactId>
                 <version>${magnoliaJsonfnVersion}</version>
             </dependency>
-
-            <!-- Rest services -->
-            <dependency>
-                <groupId>info.magnolia.rest</groupId>
-                <artifactId>magnolia-rest-services</artifactId>
-                <version>${restModuleVersion}</version>
-            </dependency>
-            <!-- Rest integration -->
-            <dependency>
-                <groupId>info.magnolia.rest</groupId>
-                <artifactId>magnolia-rest-integration</artifactId>
-                <version>${restModuleVersion}</version>
-            </dependency>
-            <!-- Rest tools -->
-            <dependency>
-                <groupId>info.magnolia.rest</groupId>
-                <artifactId>magnolia-rest-tools</artifactId>
-                <version>${restModuleVersion}</version>
-            </dependency>
+            
             <!-- Cross domain module -->
             <dependency>
                 <groupId>info.magnolia.tools</groupId>
