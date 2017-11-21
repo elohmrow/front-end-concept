@@ -21,15 +21,30 @@ class TimeTable extends AbstractComponent {
 	componentDidMount() {
 		super.componentDidMount();
 		
-		//Loads the trains
+		let component = this;
+		
+		// Load the trains for the first time
+		this.fetchTrainsData(component);
+		
+		// Then trigger an uodate every 5 seconds
+		setInterval(function() {
+			component.fetchTrainsData(component);
+		}, 5000);
+
+	}
+	
+	/**
+	 * Fetch the trains data
+	 */
+	fetchTrainsData(component) {
 		axios
 			.get("http://localhost:8080/.rest/trains/all")
 			.then(response => {
-				this.setState( {trains: response.data} );
+				component.setState( {trains: response.data} );
 				console.log("Train loaded");
 			}).catch(error => {
 			    console.log(error);
-			});	
+			});		
 	}
 	
 	renderTrain(train, rowIndex) {
