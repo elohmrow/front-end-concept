@@ -34,7 +34,7 @@ class App extends Component {
 			axios
 				.get("http://localhost:8080/.rest/nodes/page//train-react?depth=10")
 				.then(response => {
-					reactSessionStore.singlePageConfig = response.data;
+					reactSessionStore.singlePageConfig.content = response.data;
 					this.setState( {init: true} );
 				}).catch(error => {
 				    console.log(error);

@@ -20,7 +20,7 @@ AreaHelper.prototype.before = function() {
 	var mgnCtxService = new MgnCtxService();
 	var pagePath = mgnCtxService.getCurrentNode();
 	
-	return "<!-- " + this.tag + " content=\"website:" + pagePath + "/" + this.area.name + "\" "
+	return "  " + this.tag + " content=\"website:" + pagePath + "/" + this.area.name + "\" "
 		+"name=\"" + this.area.name + "\" "
 		+"availableComponents=\"" + this.getAvailableComponents() + "\" "
 		+"type=\"" + this.getType() + "\" "
@@ -31,7 +31,7 @@ AreaHelper.prototype.before = function() {
 		+"showAddButton=\"" + this.getShowAddButton() + "\" "
 		+"showNewComponentArea=\"" + this.getShowNewComponentArea() + "\" "
 		+"description=\"" + this.getDescription() + "\" "
-		+"activationStatus=\"0\" -->";
+		+"activationStatus=\"0\" ";
 }
 
 /**
@@ -40,7 +40,7 @@ AreaHelper.prototype.before = function() {
  * @return The comment string
  */
 AreaHelper.prototype.after = function() {
-	return "<!-- /" + this.tag + " -->";
+	return " /" + this.tag + " ";
 }
 
 //Return the content

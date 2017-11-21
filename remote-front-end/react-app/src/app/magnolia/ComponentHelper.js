@@ -14,10 +14,10 @@ function ComponentHelper(component) {
  * @return The comment string
  */
 ComponentHelper.prototype.before = function() {	
-	return "<!-- " + this.tag + " content=\"website:" + this.component["@path"] + "\" "
+	return " " + this.tag + " content=\"website:" + this.component["@path"] + "\" "
 		+"dialog=\"" + this.getDialog() + "\" "
 		+"label=\"" + this.getTitle() + "\" "
-		+"activationStatus=\"2\" -->";
+		+"activationStatus=\"2\" ";
 }
 
 /**
@@ -26,7 +26,7 @@ ComponentHelper.prototype.before = function() {
  * @return The comment string
  */
 ComponentHelper.prototype.after = function() {
-	return "<!-- /" + this.tag + " -->";
+	return " /" + this.tag + " ";
 }
 
 /**

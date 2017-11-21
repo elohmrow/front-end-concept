@@ -1,7 +1,5 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 
-import Title from './Title';
 import AbstractArea from '../magnolia/AbstractArea';
 
 class Column extends AbstractArea {

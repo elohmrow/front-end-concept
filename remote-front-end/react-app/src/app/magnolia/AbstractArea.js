@@ -9,34 +9,6 @@ import COMPONENTS from '../mapping';
 class AbstractArea extends Component {
 	
 	/**
-	 * Before updating the rendering
-	 */
-	/*componentWillReceiveProps(nextProps){
-		if (reactSessionStore.singlePageConfig!=null) {
-			var areaName = this.props.column.cmsArea;		
-			if (areaName != null) {
-				console.log("Initializing area:  " + areaName);
-				
-				// Magnolia context service.
-				var mgnCtxService = new MgnCtxService();
-				
-								
-				// Sets the components list in the state
-				this.setState({components: Object.values(mgnCtxService.getAreaComponents(areaName))});
-				
-		        // Get the area helper
-				var areaHelper = new AreaHelper(area);
-				
-		        let el = ReactDOM.findDOMNode(this);
-		        ReactDOM.unmountComponentAtNode(el);
-	
-		        // Wrap with the HTML comment
-		        el.outerHTML = areaHelper.before() + el.outerHTML + areaHelper.after();
-			}
-		}
-	}*/
-	
-	/**
 	 * Constructor.
 	 */
 	constructor(props) {
@@ -64,23 +36,31 @@ class AbstractArea extends Component {
 		}
 	}
 	
+	/**
+	 * Once rendered
+	 */
 	componentDidUpdate() {
-		if (reactSessionStore.singlePageConfig!=null) {
+		// Magnolia context service.
+		var mgnCtxService = new MgnCtxService();
+		
+		if (mgnCtxService.isEditionMode()) {
 			var areaName = this.props.column.cmsArea;		
-			if (areaName != null) {
-				// Magnolia context service.
-				var mgnCtxService = new MgnCtxService();
-				
+			if (areaName != null) {				
 				// Get the area
 				var area = mgnCtxService.getArea(areaName);
 		        // Get the area helper
 				var areaHelper = new AreaHelper(area);
 				
-		        let el = ReactDOM.findDOMNode(this);
-		        ReactDOM.unmountComponentAtNode(el);
-	
-		        // Wrap with the HTML comment
-		        el.outerHTML = areaHelper.before() + el.outerHTML + areaHelper.after();
+				// Get current node
+		        let currentNode = ReactDOM.findDOMNode(this);
+			    // Get parent node
+			    let parentNode = currentNode.parentNode;
+			    // Create the comment to insert before
+			    let commentBefore = document.createComment(areaHelper.before());
+			    parentNode.insertBefore(commentBefore, currentNode);
+			    // Create the comment to insert after
+			    let commentAfter = document.createComment(areaHelper.after());
+			    parentNode.insertBefore(commentAfter, currentNode.nextSibling);
 			}
 		}
 	}
