@@ -34,15 +34,23 @@
             <groupId>info.magnolia.templating</groupId>
             <artifactId>magnolia-jsonfn</artifactId>
         </dependency>
+
         <!-- Swagger module -->
         <dependency>
             <groupId>info.magnolia.rest</groupId>
             <artifactId>magnolia-rest-tools</artifactId>
         </dependency>
+
         <!-- Cross domain module -->
         <dependency>
             <groupId>info.magnolia.tools</groupId>
             <artifactId>magnolia-cors-filter</artifactId>
+        </dependency>
+
+        <!-- Content type module -->
+        <dependency>
+            <groupId>info.magnolia.content</groupId>
+            <artifactId>magnolia-content-types</artifactId>
         </dependency>
     </dependencies>
 

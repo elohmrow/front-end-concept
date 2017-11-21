@@ -1,0 +1,6 @@
+icon: icon-view-list
+appClass: info.magnolia.ui.contentapp.ContentApp
+class: info.magnolia.ui.contentapp.ConfiguredContentAppDescriptor
+subApps:
+  browser: !include /magnolia-train-station/include/trains-app-browse-subapp.yaml
+  detail: !include /magnolia-train-station/include/trains-app-detail-subapp.yaml

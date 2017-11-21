@@ -1,0 +1,42 @@
+subAppClass: info.magnolia.ui.contentapp.detail.DetailSubApp
+class: info.magnolia.ui.contentapp.detail.DetailSubAppDescriptor
+contentConnector:
+  workspace: trains
+editor:
+  nodeType:
+    icon: icon-node-data
+    name: mgnl:train
+  actions:
+    - name: commit
+    - name: cancel
+  form:
+    tabs:
+      - name: train
+        fields:
+          - name: type
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: from
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: to
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: start
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: end
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: length
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: numStops
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: price
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition  
+          - name: flexPrice
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition      
+actions:
+  commit:
+    class: info.magnolia.ui.form.action.SaveFormActionDefinition
+    availability:
+      rules:
+        - name: IsNotVersionedRule
+          implementationClass: info.magnolia.ui.framework.availability.IsNotVersionedRule
+  cancel:
+    class: info.magnolia.ui.form.action.CancelFormActionDefinition
