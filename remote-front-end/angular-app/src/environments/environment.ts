@@ -6,6 +6,7 @@
 export const environment = {
 	production: false,
 	restUrl: "http://localhost:8080/.rest/nodes/page/",
+	trainRestUrl: "http://localhost:8080/.rest/trains/all",
 	damUrl: "http://localhost:8080/dam/",
 	magnoliaPageNode: "/train-angular",
 	magnoliaPageNodeDepth: 10,

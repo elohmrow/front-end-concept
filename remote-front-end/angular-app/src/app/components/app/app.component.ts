@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } 		from '@angular/core';
 
-import { MagnoliaContextService } from '../../../magnolia-app/services/magnolia-context.service';
+import { MagnoliaContextService } 	from '../../../magnolia-app/services/magnolia-context.service';
 
 @Component({
   selector: 'my-app',

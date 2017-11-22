@@ -1,51 +1,26 @@
-import { Injectable } from '@angular/core';
+import { Injectable } 				from '@angular/core';
+import { Http, Response }          	from '@angular/http';
+import { Observable } 				from 'rxjs/Observable';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/map';
+
+import { environment } 				from '../../environments/environment';
 
 @Injectable()
 export class TrainService {
-	TRAINS = [
-		{
-			"departStation": "Basel Bad Bf",
-			"arrivalStation": "Frankfurt(Main) Hbf",
-			"departure": "09:15",
-			"arrival": "11:53",
-			"length": "2:38",
-			"stops": "0",
-			"type": "ICE",
-			"price": "77,90 EUR",
-			"flexPrice": "83,00 EUR"
-		},	
-		{
-			"departStation": "Basel Bad Bf",
-			"arrivalStation": "Frankfurt(Main) Hbf",
-			"departure": "09:23",
-			"arrival": "12:08",
-			"length": "2:45",
-			"stops": "1",
-			"type": "ICE",
-			"price": "- EUR",
-			"flexPrice": "83,00 EUR"
-		},	
-		{
-			"departStation": "Basel Bad Bf",
-			"arrivalStation": "Frankfurt(Main) Hbf",
-			"departure": "10:23",
-			"arrival": "13:08",
-			"length": "2:45",
-			"stops": "0",
-			"type": "ICE",
-			"price": "77,90 EUR",
-			"flexPrice": "83,90 EUR"
-		}
-	];
-	
+
 	/**
 	 * Constructor
 	 */
-	constructor() {
+	constructor(private http: Http) {
 		
 	}
-	
-	getTrains() {
-		return this.TRAINS;
+		
+	/**
+	 * Get the trains from Magnolia
+	 */
+	getTrains(): Observable<any> {
+		return this.http.get(environment.trainRestUrl)
+    		.map(res => res.json());
 	}
 }

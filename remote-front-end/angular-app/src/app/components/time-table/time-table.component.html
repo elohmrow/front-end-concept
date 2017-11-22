@@ -12,14 +12,14 @@
 	<th *ngIf="column === 'flexPrice'" style="width: 125px;">Flex price</th>
 	</ng-template>
 </tr>
-<tr *ngFor="let train of trains" class="firstrow">
+<tr *ngFor="let train of trains | async" class="firstrow">
 	<ng-template ngFor let-column [ngForOf]="component.selectColumns">
-	<td *ngIf="column === 'departStation'" style="width: 208px;">{{train.departStation}}</td>
-	<td *ngIf="column === 'arrivalStation'" style="width: 208px;">{{train.arrivalStation}}</td>
-	<td *ngIf="column === 'departure'" style="width: 167px;">{{train.departure}}</td>
-	<td *ngIf="column === 'arrival'" style="width: 167px;">{{train.arrival}}</td>
+	<td *ngIf="column === 'departStation'" style="width: 208px;">{{train.from}}</td>
+	<td *ngIf="column === 'arrivalStation'" style="width: 208px;">{{train.to}}</td>
+	<td *ngIf="column === 'departure'" style="width: 167px;">{{train.start}}</td>
+	<td *ngIf="column === 'arrival'" style="width: 167px;">{{train.end}}</td>
 	<td *ngIf="column === 'length'">{{train.length}}</td>
-	<td *ngIf="column === 'stops'">{{train.stops}}</td>
+	<td *ngIf="column === 'stops'">{{train.numStops}}</td>
 	<td *ngIf="column === 'type'">{{train.type}}</td>
 	<td *ngIf="column === 'price'">{{train.price}}</td>
 	<td *ngIf="column === 'flexPrice'">{{train.flexPrice}}</td>

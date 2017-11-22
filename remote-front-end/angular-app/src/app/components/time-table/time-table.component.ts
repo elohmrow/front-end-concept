@@ -1,7 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Observable } 				from 'rxjs/Observable';
 
-import { AbstractComponent } from '../../../magnolia-app/component/abstract.component';
-import { TrainService } from '../../services/train.service';
+import { AbstractComponent } 		from '../../../magnolia-app/component/abstract.component';
+import { TrainService } 			from '../../services/train.service';
 
 @Component({
   selector: '[app-time-table]',
@@ -10,7 +11,9 @@ import { TrainService } from '../../services/train.service';
 })
 export class TimeTableComponent extends AbstractComponent {
 	/** List of trains. */
-	trains: any[];
+	trains: Observable<any[]>;
+	/** Interval. */
+	interval: any;
 
 	/**
 	 * Constructor
@@ -25,6 +28,28 @@ export class TimeTableComponent extends AbstractComponent {
   	ngOnInit() {
   		super.ngOnInit();
   		
+  		//Loads a first time
+  		this.loadTrains()
+  		
+  		//Then loads every 5 seconds
+  		this.interval = setInterval(() => {
+  		    this.loadTrains(); 
+  		}, 5000);
+  	}
+  	  	
+	/**
+	 * On destroy
+	 */
+  	ngOnDestroy() {
+		if (this.interval) {
+		    clearInterval(this.interval);
+		}
+  	}
+  	
+  	/**
+  	 * Loads the trains from Magnolia
+  	 */
+  	private loadTrains() {
   		this.trains = this.trainService.getTrains();
   	}
 }
