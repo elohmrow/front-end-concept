@@ -50,6 +50,8 @@ export class TimeTableComponent extends AbstractComponent {
   	 * Loads the trains from Magnolia
   	 */
   	private loadTrains() {
-  		this.trains = this.trainService.getTrains();
+  		this.trainService.getTrains().subscribe(data => {
+  			this.trains = data.results;
+  		});
   	}
 }

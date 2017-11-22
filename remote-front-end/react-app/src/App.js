@@ -33,7 +33,7 @@ class App extends Component {
 		} else {
 			//Loads the single page config
 			axios
-				.get(ENVIRONMENT.restUrl + ENVIRONMENT.magnoliaPageNode + "?depth=" + ENVIRONMENT.magnoliaPageNodeDepth)
+				.get(ENVIRONMENT.restUrl)
 				.then(response => {
 					reactSessionStore.singlePageConfig.content = response.data;
 					this.setState( {init: true} );

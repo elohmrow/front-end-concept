@@ -12,7 +12,7 @@
 	<th *ngIf="column === 'flexPrice'" style="width: 125px;">Flex price</th>
 	</ng-template>
 </tr>
-<tr *ngFor="let train of trains | async" class="firstrow">
+<tr *ngFor="let train of trains" class="firstrow">
 	<ng-template ngFor let-column [ngForOf]="component.selectColumns">
 	<td *ngIf="column === 'departStation'" style="width: 208px;">{{train.from}}</td>
 	<td *ngIf="column === 'arrivalStation'" style="width: 208px;">{{train.to}}</td>

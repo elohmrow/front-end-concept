@@ -1,0 +1,18 @@
+class: info.magnolia.rest.delivery.jcr.v1.JcrDeliveryEndpointDefinition
+params:
+  trains:
+    workspace: trains
+    rootPath: /
+    nodeTypes:
+      - mgnl:train
+    depth: 1
+    includeSystemProperties: false
+    bypassWorkspaceAcls: false
+  pages:
+    workspace: website
+    rootPath: /
+    nodeTypes:
+      - mgnl:page
+    depth: 10
+    includeSystemProperties: true
+    bypassWorkspaceAcls: false

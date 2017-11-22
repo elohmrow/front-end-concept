@@ -74,11 +74,11 @@ class AbstractArea extends Component {
 		if (componentClass!=null) {
 			return React.createElement(
 					componentClass, 
-					{"key": component["@id"], "component": component});
+					{"key": component["jcr:uuid"], "component": component});
 		} else {
 			return React.createElement(
 					"div",
-					{"key": component["@id"]});
+					{"key": component["jcr:uuid"]});
 		}
 	}
 }

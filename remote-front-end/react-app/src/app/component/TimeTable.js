@@ -42,7 +42,7 @@ class TimeTable extends AbstractComponent {
 		axios
 			.get(ENVIRONMENT.trainRestUrl)
 			.then(response => {
-				component.setState( {trains: response.data} );
+				component.setState( {trains: response.data.results} );
 				console.log("Train loaded");
 			}).catch(error => {
 			    console.log(error);
@@ -55,31 +55,31 @@ class TimeTable extends AbstractComponent {
 		if (this.props.component.selectColumns!=null) {
 			this.props.component.selectColumns.forEach(function(selectedColumn) {
 				if (selectedColumn === 'departStation') {
-					cells.push(<td>{train.from}</td>);
+					cells.push(<td key={selectedColumn}>{train.from}</td>);
 				}
 				if (selectedColumn === 'arrivalStation') {
-					cells.push(<td>{train.to}</td>);
+					cells.push(<td key={selectedColumn}>{train.to}</td>);
 				}
 				if (selectedColumn === 'departure') {
-					cells.push(<td>{train.start}</td>);
+					cells.push(<td key={selectedColumn}>{train.start}</td>);
 				}
 				if (selectedColumn === 'arrival') {
-					cells.push(<td>{train.end}</td>);
+					cells.push(<td key={selectedColumn}>{train.end}</td>);
 				}
 				if (selectedColumn === 'length') {
-					cells.push(<td>{train.length}</td>);
+					cells.push(<td key={selectedColumn}>{train.length}</td>);
 				}
 				if (selectedColumn === 'stops') {
-					cells.push(<td>{train.numStops}</td>);
+					cells.push(<td key={selectedColumn}>{train.numStops}</td>);
 				}
 				if (selectedColumn === 'type') {
-					cells.push(<td>{train.type}</td>);
+					cells.push(<td key={selectedColumn}>{train.type}</td>);
 				}
 				if (selectedColumn === 'price') {
-					cells.push(<td>{train.price}</td>);
+					cells.push(<td key={selectedColumn}>{train.price}</td>);
 				}
 				if (selectedColumn === 'flexPrice') {
-					cells.push(<td>{train.flexPrice}</td>);
+					cells.push(<td key={selectedColumn}>{train.flexPrice}</td>);
 				}
 			})
 		}

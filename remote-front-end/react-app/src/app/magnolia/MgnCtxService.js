@@ -50,12 +50,13 @@ MgnCtxService.prototype.getAreaComponents = function(areaName) {
 		//Gets the area content
 		var content = reactSessionStore.singlePageConfig.content;
 		var areaContent = content[areaName];
-
-		if (areaContent!=null) {    			    	
-	    	for (var key in areaContent) {
-	    	    var value = areaContent[key];
+		
+		if (areaContent!=null) { 
+			var components = areaContent["@nodes"];
+			components.map(nodeName => {
+				var value = areaContent[nodeName];
 	    	    
-	    	    if (typeof(value) === "object" && value["@nodeType"] === "mgnl:component") {
+	    	    if (typeof(value) === "object" && value["jcr:primaryType"] === "mgnl:component") {
 	    	    	if (this.isEditionMode()) {
 		    	    	//Gets the template
 		    	    	var templateId = value["mgnl:template"];
@@ -65,7 +66,7 @@ MgnCtxService.prototype.getAreaComponents = function(areaName) {
 	    	    	
 	    	    	results.push(value);
 	    	    }
-	    	}
+			});
     	}
 	}
 

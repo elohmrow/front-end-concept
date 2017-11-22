@@ -52,6 +52,16 @@
             <groupId>info.magnolia.content</groupId>
             <artifactId>magnolia-content-types</artifactId>
         </dependency>
+
+        <!-- REST API -->
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-content-delivery</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
