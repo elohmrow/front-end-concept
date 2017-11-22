@@ -8,6 +8,7 @@ import Navigation from './app/component/Navigation';
 import Main from './app/component/Main';
 
 import reactSessionStore from './app/state/ReactSessionStore';
+import ENVIRONMENT from "./environments/environment"
 
 class App extends Component {
 
@@ -32,7 +33,7 @@ class App extends Component {
 		} else {
 			//Loads the single page config
 			axios
-				.get("http://localhost:8080/.rest/nodes/page//train-react?depth=10")
+				.get(ENVIRONMENT.restUrl + ENVIRONMENT.magnoliaPageNode + "?depth=" + ENVIRONMENT.magnoliaPageNodeDepth)
 				.then(response => {
 					reactSessionStore.singlePageConfig.content = response.data;
 					this.setState( {init: true} );

@@ -2,13 +2,15 @@ import React from 'react';
 
 import AbstractComponent from "../magnolia/AbstractComponent"
 
+import ENVIRONMENT from "../../environments/environment"
+
 class TextImage extends AbstractComponent {
 	
 	/**
 	 * Render the element
 	 */
 	render() {
-		var damURL = "http://localhost:8080/dam/" + this.props.component.image;
+		var damURL = ENVIRONMENT.damUrl + this.props.component.image;
 	
 	    return (
 	    	<div className="row">

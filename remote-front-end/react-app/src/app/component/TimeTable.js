@@ -3,6 +3,8 @@ import React from 'react';
 import AbstractComponent from "../magnolia/AbstractComponent"
 import axios from 'axios';
 
+import ENVIRONMENT from "../../environments/environment"
+
 class TimeTable extends AbstractComponent {
 	
 	/**
@@ -38,7 +40,7 @@ class TimeTable extends AbstractComponent {
 	 */
 	fetchTrainsData(component) {
 		axios
-			.get("http://localhost:8080/.rest/trains/all")
+			.get(ENVIRONMENT.trainRestUrl)
 			.then(response => {
 				component.setState( {trains: response.data} );
 				console.log("Train loaded");

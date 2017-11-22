@@ -14,8 +14,7 @@ function MgnCtxService() {
  */
 MgnCtxService.prototype.getArea = function(areaName) {
 	var config = reactSessionStore.singlePageConfig;
-	//console.log(JSON.stringify(config.areaDefinitions, null, 2));
-	
+
 	if (config.areaDefinitions !== null) {
 		return config.areaDefinitions[areaName];	
 	} else {
