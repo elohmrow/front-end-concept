@@ -21,3 +21,4 @@
 /**/cache/**/*.meta
 /**/cache/**/*.data
 /**/cache/**/*.index
+/**/dist
