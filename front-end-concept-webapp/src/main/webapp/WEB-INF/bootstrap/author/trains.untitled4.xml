@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="untitled4">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:train</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>f59ae001-4863-425a-bb69-c0e766255e8e</sv:value>
+  </sv:property>
+  <sv:property sv:name="end" sv:type="String">
+    <sv:value>14:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="flexPrice" sv:type="String">
+    <sv:value>220</sv:value>
+  </sv:property>
+  <sv:property sv:name="from" sv:type="String">
+    <sv:value>Basel SBB</sv:value>
+  </sv:property>
+  <sv:property sv:name="length" sv:type="String">
+    <sv:value>03:46</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>false</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-11-23T09:07:35.452+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2017-11-23T09:07:35.452+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2017-11-23T09:15:01.175+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="numStops" sv:type="String">
+    <sv:value>18</sv:value>
+  </sv:property>
+  <sv:property sv:name="price" sv:type="String">
+    <sv:value>200</sv:value>
+  </sv:property>
+  <sv:property sv:name="start" sv:type="String">
+    <sv:value>10:14</sv:value>
+  </sv:property>
+  <sv:property sv:name="to" sv:type="String">
+    <sv:value>Milano Centrale</sv:value>
+  </sv:property>
+  <sv:property sv:name="type" sv:type="String">
+    <sv:value>ICE</sv:value>
+  </sv:property>
+</sv:node>
+

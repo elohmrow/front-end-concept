@@ -807,18 +807,11 @@ module.exports = "<div class=\"container\">\n\t<div class=\"meta clearfix\">\n\t
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    restUrl: "http://localhost:8080/.rest/nodes/page/",
-    trainRestUrl: "http://localhost:8080/.rest/trains/all",
+    restUrl: "http://localhost:8080/.rest/delivery/pages/v1/train-angular",
+    trainRestUrl: "http://localhost:8080/.rest/delivery/trains/v1/",
     damUrl: "http://localhost:8080/dam/",
-    magnoliaPageNode: "/train-angular",
-    magnoliaPageNodeDepth: 10,
     staticFilePath: "http://localhost:8080/.resources/angular-train-station/webresources"
 };
 //# sourceMappingURL=environment.js.map
@@ -856,7 +849,7 @@ module.exports = "<div class=\"row\">\n\t<div class=\"col-xs-12\">\n\t\t<img cla
 /***/ 184:
 /***/ (function(module, exports) {
 
-module.exports = "<table class=\"mgn-train-time-table\" cellspacing=\"0\">\n<tr>\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<th *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">Dep. station</th>\n\t<th *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">Arr. station</th>\n\t<th *ngIf=\"column === 'departure'\" style=\"width: 167px;\">Dep. time</th>\n\t<th *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">Arr. time</th>\n\t<th *ngIf=\"column === 'length'\" style=\"width: 73px;\">Length</th>\n\t<th *ngIf=\"column === 'stops'\" style=\"width: 72px;\">Num stops</th>\n\t<th *ngIf=\"column === 'type'\" style=\"width: 78px;\">Type</th>\n\t<th *ngIf=\"column === 'price'\" style=\"width: 217px;\">Price</th>\n\t<th *ngIf=\"column === 'flexPrice'\" style=\"width: 125px;\">Flex price</th>\n\t</ng-template>\n</tr>\n<tr *ngFor=\"let train of trains | async\" class=\"firstrow\">\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<td *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">{{train.from}}</td>\n\t<td *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">{{train.to}}</td>\n\t<td *ngIf=\"column === 'departure'\" style=\"width: 167px;\">{{train.start}}</td>\n\t<td *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">{{train.end}}</td>\n\t<td *ngIf=\"column === 'length'\">{{train.length}}</td>\n\t<td *ngIf=\"column === 'stops'\">{{train.numStops}}</td>\n\t<td *ngIf=\"column === 'type'\">{{train.type}}</td>\n\t<td *ngIf=\"column === 'price'\">{{train.price}}</td>\n\t<td *ngIf=\"column === 'flexPrice'\">{{train.flexPrice}}</td>\n\t</ng-template>\n</tr>\n</table>"
+module.exports = "<table class=\"mgn-train-time-table\" cellspacing=\"0\">\n<tr>\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<th *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">Dep. station</th>\n\t<th *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">Arr. station</th>\n\t<th *ngIf=\"column === 'departure'\" style=\"width: 167px;\">Dep. time</th>\n\t<th *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">Arr. time</th>\n\t<th *ngIf=\"column === 'length'\" style=\"width: 73px;\">Length</th>\n\t<th *ngIf=\"column === 'stops'\" style=\"width: 72px;\">Num stops</th>\n\t<th *ngIf=\"column === 'type'\" style=\"width: 78px;\">Type</th>\n\t<th *ngIf=\"column === 'price'\" style=\"width: 217px;\">Price</th>\n\t<th *ngIf=\"column === 'flexPrice'\" style=\"width: 125px;\">Flex price</th>\n\t</ng-template>\n</tr>\n<tr *ngFor=\"let train of trains\" class=\"firstrow\">\n\t<ng-template ngFor let-column [ngForOf]=\"component.selectColumns\">\n\t<td *ngIf=\"column === 'departStation'\" style=\"width: 208px;\">{{train.from}}</td>\n\t<td *ngIf=\"column === 'arrivalStation'\" style=\"width: 208px;\">{{train.to}}</td>\n\t<td *ngIf=\"column === 'departure'\" style=\"width: 167px;\">{{train.start}}</td>\n\t<td *ngIf=\"column === 'arrival'\" style=\"width: 167px;\">{{train.end}}</td>\n\t<td *ngIf=\"column === 'length'\">{{train.length}}</td>\n\t<td *ngIf=\"column === 'stops'\">{{train.numStops}}</td>\n\t<td *ngIf=\"column === 'type'\">{{train.type}}</td>\n\t<td *ngIf=\"column === 'price'\">{{train.price}}</td>\n\t<td *ngIf=\"column === 'flexPrice'\">{{train.flexPrice}}</td>\n\t</ng-template>\n</tr>\n</table>"
 
 /***/ }),
 
@@ -1019,24 +1012,26 @@ var MagnoliaContextService = (function () {
      * @param areaName The name of the area
      */
     MagnoliaContextService.prototype.getAreaComponents = function (areaName) {
+        var _this = this;
         var results = new Array();
         if (typeof (this.singlePageConfig.content) !== "undefined") {
             //Gets the area content
             var content = this.singlePageConfig.content;
             var areaContent = content[areaName];
             if (areaContent != null) {
-                for (var key in areaContent) {
-                    var value = areaContent[key];
-                    if (typeof (value) === "object" && value["@nodeType"] === "mgnl:component") {
-                        if (this.editionMode) {
+                var components = areaContent["@nodes"];
+                components.map(function (nodeName) {
+                    var value = areaContent[nodeName];
+                    if (typeof (value) === "object" && value["jcr:primaryType"] === "mgnl:component") {
+                        if (_this.editionMode) {
                             //Gets the template
                             var templateId = value["mgnl:template"];
-                            var template = this.getComponent(templateId);
+                            var template = _this.getComponent(templateId);
                             value.componentDefinition = template;
                         }
                         results.push(value);
                     }
-                }
+                });
             }
         }
         return results;
@@ -1058,7 +1053,7 @@ var MagnoliaContextService = (function () {
      * Contact Magnolia and gets the node content back.
      */
     MagnoliaContextService.prototype.getMagnoliaData = function () {
-        return this.http.get(__WEBPACK_IMPORTED_MODULE_5__environments_environment__["a" /* environment */].restUrl + __WEBPACK_IMPORTED_MODULE_5__environments_environment__["a" /* environment */].magnoliaPageNode + "?depth=" + __WEBPACK_IMPORTED_MODULE_5__environments_environment__["a" /* environment */].magnoliaPageNodeDepth)
+        return this.http.get(__WEBPACK_IMPORTED_MODULE_5__environments_environment__["a" /* environment */].restUrl)
             .map(function (res) { return res.json(); });
     };
     /**
@@ -1323,7 +1318,10 @@ var TimeTableComponent = (function (_super) {
      * Loads the trains from Magnolia
      */
     TimeTableComponent.prototype.loadTrains = function () {
-        this.trains = this.trainService.getTrains();
+        var _this = this;
+        this.trainService.getTrains().subscribe(function (data) {
+            _this.trains = data.results;
+        });
     };
     return TimeTableComponent;
 }(__WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__["a" /* AbstractComponent */]));

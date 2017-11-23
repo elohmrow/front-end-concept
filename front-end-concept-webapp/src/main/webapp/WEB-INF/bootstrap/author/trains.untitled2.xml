@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="untitled2">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:train</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>1cabaf94-ea34-4c02-bed7-3186c9556cc7</sv:value>
+  </sv:property>
+  <sv:property sv:name="end" sv:type="String">
+    <sv:value>12:22</sv:value>
+  </sv:property>
+  <sv:property sv:name="flexPrice" sv:type="String">
+    <sv:value>180</sv:value>
+  </sv:property>
+  <sv:property sv:name="from" sv:type="String">
+    <sv:value>Basel SBB</sv:value>
+  </sv:property>
+  <sv:property sv:name="length" sv:type="String">
+    <sv:value>03:02</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>false</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-11-23T09:07:34.180+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2017-11-23T09:07:34.181+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2017-11-23T09:13:00.183+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="numStops" sv:type="String">
+    <sv:value>2</sv:value>
+  </sv:property>
+  <sv:property sv:name="price" sv:type="String">
+    <sv:value>100</sv:value>
+  </sv:property>
+  <sv:property sv:name="start" sv:type="String">
+    <sv:value>09:20</sv:value>
+  </sv:property>
+  <sv:property sv:name="to" sv:type="String">
+    <sv:value>Paris, Gare de Lyon</sv:value>
+  </sv:property>
+  <sv:property sv:name="type" sv:type="String">
+    <sv:value>ICE</sv:value>
+  </sv:property>
+</sv:node>
+

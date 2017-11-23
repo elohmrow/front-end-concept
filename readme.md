@@ -2,12 +2,12 @@
 
 
 ### Installation steps
-* Change the rest tools base URL
-* Add the rest role to anonymous
-* Allow the anonymous role to access the website page node (read-only)
-* Allow the rest role to access the /.rest/nodes/page
+* Modify the magnolia.properties file:
+	* Set the magnolia.resources.dir to the light-modules folder local path
+	* Set the magnolia.repositories.home to the root path of the front-end-concept project
+* Add the "rest-front-end" and "resources-front-end" roles to anonymous
+* Add the "rest-front-end" and "resources-front-end" roles to superuser
 * Remove default config in the CORS filter
-* Create a symbolic link: /light-modules/angular-standalone to /angular-concept-webapp/src/main/webapp/modules
 
 
 ### Angular

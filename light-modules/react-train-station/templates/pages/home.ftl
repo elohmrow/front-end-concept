@@ -12,9 +12,13 @@
 		<link href="${ctx.contextPath}/.resources/react-train-station/webresources/static/css/main.css" rel="stylesheet">
 		
 		[@cms.page /]
-		
+
 		<script>
-			window.singlePageConfig = ${model.getSinglePageConfig(content)};
+			window.singlePageConfig = {
+				areaDefinitions: ${model.getAreaDefinitionsJson(content["mgnl:template"])!}, 
+				componentsDefinitions: ${model.getComponentDefinitionsJson(content["mgnl:template"])!}, 
+				content: ${model.getPageContent(content["@name"])!}
+			}
 		</script>
 	</head>
 	<body>

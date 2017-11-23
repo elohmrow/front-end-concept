@@ -23,22 +23,10 @@
             <type>war</type>
         </dependency>
 
-        <!-- Integration module -->
+        <!-- Javascript models module -->
         <dependency>
-            <groupId>info.magnolia.concept.frontend</groupId>
-            <artifactId>front-end-concept-integration</artifactId>
-        </dependency>
-
-        <!-- JSON fn module -->
-        <dependency>
-            <groupId>info.magnolia.templating</groupId>
-            <artifactId>magnolia-jsonfn</artifactId>
-        </dependency>
-
-        <!-- Swagger module -->
-        <dependency>
-            <groupId>info.magnolia.rest</groupId>
-            <artifactId>magnolia-rest-tools</artifactId>
+            <groupId>info.magnolia.javascript-models</groupId>
+            <artifactId>magnolia-module-javascript-models</artifactId>
         </dependency>
 
         <!-- Cross domain module -->

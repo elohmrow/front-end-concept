@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="untitled1">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:train</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>10d6fffc-1035-4013-bb0a-7bf99889989c</sv:value>
+  </sv:property>
+  <sv:property sv:name="end" sv:type="String">
+    <sv:value>10:32</sv:value>
+  </sv:property>
+  <sv:property sv:name="flexPrice" sv:type="String">
+    <sv:value>74</sv:value>
+  </sv:property>
+  <sv:property sv:name="from" sv:type="String">
+    <sv:value>Basel SBB</sv:value>
+  </sv:property>
+  <sv:property sv:name="length" sv:type="String">
+    <sv:value>01:44</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>false</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-11-23T09:07:33.518+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2017-11-23T09:07:33.519+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2017-11-23T09:12:23.474+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="numStops" sv:type="String">
+    <sv:value>3</sv:value>
+  </sv:property>
+  <sv:property sv:name="price" sv:type="String">
+    <sv:value>70</sv:value>
+  </sv:property>
+  <sv:property sv:name="start" sv:type="String">
+    <sv:value>08:48</sv:value>
+  </sv:property>
+  <sv:property sv:name="to" sv:type="String">
+    <sv:value>Luzern, Bahnhof</sv:value>
+  </sv:property>
+  <sv:property sv:name="type" sv:type="String">
+    <sv:value>ICE</sv:value>
+  </sv:property>
+</sv:node>
+
