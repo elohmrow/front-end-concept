@@ -2,7 +2,8 @@ templateScript: /angular-train-station/templates/pages/home.ftl
 renderType: freemarker
 visible: true
 title: Angular Train station page
-modelClass: info.magnolia.concept.frontend.integration.model.DefinitionExtractorModel
+modelClass: info.magnolia.module.jsmodels.rendering.JavascriptRenderingModel
+modelPath: /magnolia-train-station/templates/common/definition-extractor-model.js
 areas:
   left:
     renderType: freemarker
