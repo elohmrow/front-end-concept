@@ -5,16 +5,10 @@
 <nav class="navbar navbar-default affix-top mgn-air-asia-navigation"></nav>
 
 <!-- Content -->
-<div class="container" *ngIf="isDataLoaded">
-	<!-- Main areas -->
-	<div class="row mgn-train-section">
-		<div class="col-xs-12 col-md-6" areaName="left" cms-area list-area></div>
-		<div class="col-xs-12 col-md-6" areaName="right" cms-area list-area></div>
-	</div>
-	
-	<!-- Schedule area -->
-	<div class="row mgn-train-section">
-		<div class="col-xs-12" areaName="schedule" cms-area list-area></div>
+<div class="container-fluid" *ngIf="isDataLoaded">	
+	<!-- Main area -->
+	<div class="row">
+		<div class="col-xs-12 mgn-air-asia-cell" areaName="main" cms-area list-area></div>
 	</div>
 </div>
 

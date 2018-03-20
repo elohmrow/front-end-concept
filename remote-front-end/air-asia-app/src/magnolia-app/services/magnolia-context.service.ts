@@ -103,21 +103,21 @@ export class MagnoliaContextService {
 			//Gets the area content
 			var content = this.singlePageConfig.content;
 			var areaContent = content[areaName];
-
+			
 			if (areaContent!=null) {    			    	
 				var components = areaContent["@nodes"];
 				components.map(nodeName => {
 					var value = areaContent[nodeName];
-		    	    
-		    	    if (typeof(value) === "object" && value["jcr:primaryType"] === "mgnl:component") {
-		    	    	if (this.editionMode) {
-			    	    	//Gets the template
-			    	    	var templateId = value["mgnl:template"];
-			    	    	var template = this.getComponent(templateId);
-			    	    	value.componentDefinition = template;
-		    	    	}
+
+			    	    if (typeof(value) === "object" && value["@nodeType"] === "mgnl:component") {
+			    	    	if (this.editionMode) {
+				    	    	//Gets the template
+				    	    	var templateId = value["mgnl:template"];
+				    	    	var template = this.getComponent(templateId);
+				    	    	value.componentDefinition = template;
+			    	    	}
 		    	    	
-		    	    	results.push(value);
+			    	    	results.push(value);
 		    	    }
 		    	});
 	    	}

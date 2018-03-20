@@ -40,7 +40,7 @@ export class AbstractArea implements OnInit, AfterViewInit {
 	 */
 	ngAfterViewInit() {
 		var abstractArea = this;
-
+				
 		this.templates.forEach(function(item: ComponentDirective, index: number, array: ComponentDirective[]){
 			//Gets the component
 			let component = item.getComponent();

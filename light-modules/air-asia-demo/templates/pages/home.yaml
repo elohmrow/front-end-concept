@@ -1,0 +1,12 @@
+templateScript: /air-asia-demo/templates/pages/home.ftl
+renderType: freemarker
+visible: true
+title: Air Asia demo page
+modelClass: info.magnolia.module.jsmodels.rendering.JavascriptRenderingModel
+modelPath: /magnolia-train-station/templates/common/definition-extractor-model.js
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      title:
+        id: magnolia-train-station:components/carousel

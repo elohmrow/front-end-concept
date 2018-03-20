@@ -20,6 +20,7 @@ body {
 /** Navigation */
 .mgn-air-asia-navigation {
 	background-color: #151515;
+	margin-bottom: 0px!important;
 }
 .mgn-air-asia-navigation .register {
 	background-color: #4e4e4e;  
@@ -92,9 +93,8 @@ body {
 	padding: 7px 15px 15px 15px!important;
 }
 
-.mgn-train-section {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.mgn-air-asia-cell {
+	padding: 0px;
 }
 
 .navbar {
@@ -102,4 +102,25 @@ body {
 }
 .navbar-default {
     border-width: 0px!important;
+}
+
+/** Carousel */
+.carousel-caption {
+	text-align: left!important;
+}
+.carousel-caption h3 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.carousel-caption p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.carousel-caption a {
+	padding: 10px 20px;
+    background-color: red;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 3px;
 }

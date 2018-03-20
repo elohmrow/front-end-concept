@@ -1,4 +1,4 @@
-import { NgModule}      			from '@angular/core';
+import { NgModule}      				from '@angular/core';
 import { BrowserModule } 			from '@angular/platform-browser';
 import { FormsModule }   			from '@angular/forms';
 import { HttpModule }    			from '@angular/http';
@@ -19,6 +19,7 @@ import { FooterComponent } 			from './components/footer/footer.component';
 import { NavigationComponent } 		from './components/navigation/navigation.component';
 import { TextImageComponent } 		from './components/text-image/text-image.component';
 import { TimeTableComponent } 		from './components/time-table/time-table.component';
+import { CarouselComponent } 		from './components/carousel/carousel.component';
 
 @NgModule({
 	imports: [
@@ -37,13 +38,15 @@ import { TimeTableComponent } 		from './components/time-table/time-table.compone
 		FooterComponent, 
 		NavigationComponent, 
 		TextImageComponent, 
-		TimeTableComponent
+		TimeTableComponent, 
+		CarouselComponent
 	],
 	entryComponents: [ 
 	    TitleComponent,
 	    TextImageComponent,
 	    SubtitleComponent,
-	    TimeTableComponent
+	    TimeTableComponent,
+	    CarouselComponent
 	],
 	providers: [
 	    TrainService 
