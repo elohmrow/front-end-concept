@@ -153,3 +153,22 @@ body {
     color: #fff;
     border-radius: 3px;
 }
+
+/** Banner */
+.mgn-banners {
+	background-color: #383838;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mgn-banner {
+	cursor: pointer;
+    background-repeat: no-repeat;
+    padding: 1.25em !important;
+    padding-left: 2em !important;
+    height: 6em;
+}
+.mgn-banner > a {
+    font-size: 1em;
+    font-weight: bolder;
+    font-size: 16px;
+}

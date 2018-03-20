@@ -1,0 +1,67 @@
+form:
+  tabs:
+    - name: tabBanner1
+      label: Banner 1
+      fields:
+        - name: background1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: line11
+          label: Line 1
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: line12
+          label: Line 2
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    - name: tabBanner2
+      label: Banner 2
+      fields:
+        - name: background2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: line21
+          label: Line 1
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: line22
+          label: Line 2
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    - name: tabBanner3
+      label: Banner 3
+      fields:
+        - name: background3
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: line31
+          label: Line 1
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: line32
+          label: Line 2
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

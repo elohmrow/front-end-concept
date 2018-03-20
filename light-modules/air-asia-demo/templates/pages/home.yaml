@@ -8,6 +8,8 @@ areas:
   main:
     renderType: freemarker
     availableComponents:
+      banners:
+        id: air-asia-demo:components/banners
       carousel:
         id: air-asia-demo:components/carousel
       double-sections:

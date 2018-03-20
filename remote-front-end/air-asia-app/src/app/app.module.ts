@@ -22,6 +22,7 @@ import { TimeTableComponent } 		from './components/time-table/time-table.compone
 import { CarouselComponent } 		from './components/carousel/carousel.component';
 import { SectionComponent } 			from './components/section/section.component';
 import { DoubleSectionsComponent } 	from './components/double-sections/double-sections.component';
+import { BannersComponent } 			from './components/banners/banners.component';
 
 @NgModule({
 	imports: [
@@ -43,7 +44,8 @@ import { DoubleSectionsComponent } 	from './components/double-sections/double-se
 		TimeTableComponent, 
 		CarouselComponent, 
 		SectionComponent, 
-		DoubleSectionsComponent
+		DoubleSectionsComponent, 
+		BannersComponent
 	],
 	entryComponents: [ 
 	    TitleComponent,
@@ -52,7 +54,8 @@ import { DoubleSectionsComponent } 	from './components/double-sections/double-se
 	    TimeTableComponent,
 	    CarouselComponent,
 	    SectionComponent,
-	    DoubleSectionsComponent
+	    DoubleSectionsComponent,
+	    BannersComponent
 	],
 	providers: [
 	    TrainService 

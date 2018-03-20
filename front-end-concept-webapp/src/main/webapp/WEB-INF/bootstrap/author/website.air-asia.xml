@@ -13,7 +13,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-03-20T23:07:42.842+01:00</sv:value>
+    <sv:value>2018-03-20T23:33:33.167+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -38,7 +38,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-03-20T23:07:42.842+01:00</sv:value>
+      <sv:value>2018-03-20T23:33:33.167+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -240,6 +240,56 @@ You&amp;#39;re free to Pick A Seat with complimentary in-flight meals and up to 
       </sv:property>
       <sv:property sv:name="title2" sv:type="String">
         <sv:value>Turn daily spending into rewarding experiences</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="02">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>20aa7842-dd70-4720-9f69-6975a39b377b</sv:value>
+      </sv:property>
+      <sv:property sv:name="background1" sv:type="String">
+        <sv:value>jcr:1eeccea3-250f-4662-bae9-9040f2ff7563</sv:value>
+      </sv:property>
+      <sv:property sv:name="background2" sv:type="String">
+        <sv:value>jcr:181e7f39-b3a9-46bf-9143-09cc7d3b2498</sv:value>
+      </sv:property>
+      <sv:property sv:name="background3" sv:type="String">
+        <sv:value>jcr:3b4329b5-09b4-49ac-81fb-5b276c48faa9</sv:value>
+      </sv:property>
+      <sv:property sv:name="line11" sv:type="String">
+        <sv:value>Download the</sv:value>
+      </sv:property>
+      <sv:property sv:name="line12" sv:type="String">
+        <sv:value>Mobile App</sv:value>
+      </sv:property>
+      <sv:property sv:name="line21" sv:type="String">
+        <sv:value>BIG Points</sv:value>
+      </sv:property>
+      <sv:property sv:name="line22" sv:type="String">
+        <sv:value>Calculators</sv:value>
+      </sv:property>
+      <sv:property sv:name="line31" sv:type="String">
+        <sv:value>Questions?</sv:value>
+      </sv:property>
+      <sv:property sv:name="line32" sv:type="String">
+        <sv:value>Ask BIG</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-03-20T23:33:33.168+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-03-20T23:33:33.168+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>air-asia-demo:components/banners</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
