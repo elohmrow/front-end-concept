@@ -1,0 +1,81 @@
+form:
+  tabs:
+    - name: tabSection1
+      label: Section 1
+      fields:
+        - name: background1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: title1
+          label: Title
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: text1
+          label: Text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+        - name: image1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: linkText1
+          label: Link text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: link1
+          label: Link
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    - name: tabSection2
+      label: Section 2
+      fields:
+        - name: background2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: title2
+          label: Title
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: text2
+          label: Text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+        - name: image2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: linkText2
+          label: Link text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: link2
+          label: Link
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -21,6 +21,7 @@ import { TextImageComponent } 		from './components/text-image/text-image.compone
 import { TimeTableComponent } 		from './components/time-table/time-table.component';
 import { CarouselComponent } 		from './components/carousel/carousel.component';
 import { SectionComponent } 			from './components/section/section.component';
+import { DoubleSectionsComponent } 	from './components/double-sections/double-sections.component';
 
 @NgModule({
 	imports: [
@@ -41,7 +42,8 @@ import { SectionComponent } 			from './components/section/section.component';
 		TextImageComponent, 
 		TimeTableComponent, 
 		CarouselComponent, 
-		SectionComponent
+		SectionComponent, 
+		DoubleSectionsComponent
 	],
 	entryComponents: [ 
 	    TitleComponent,
@@ -49,7 +51,8 @@ import { SectionComponent } 			from './components/section/section.component';
 	    SubtitleComponent,
 	    TimeTableComponent,
 	    CarouselComponent,
-	    SectionComponent
+	    SectionComponent,
+	    DoubleSectionsComponent
 	],
 	providers: [
 	    TrainService 

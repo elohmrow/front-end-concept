@@ -13,7 +13,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-03-20T15:43:28.098+01:00</sv:value>
+    <sv:value>2018-03-20T23:07:42.842+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -38,7 +38,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-03-20T15:43:28.098+01:00</sv:value>
+      <sv:value>2018-03-20T23:07:42.842+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -185,6 +185,61 @@ You&amp;#39;re free to Pick A Seat with complimentary in-flight meals and up to 
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
         <sv:value>A savvy traveller’s must-have</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="01">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d7124ec7-b80f-4651-a681-fceb3fc03141</sv:value>
+      </sv:property>
+      <sv:property sv:name="background1" sv:type="String">
+        <sv:value>jcr:48e9f0c3-cbaf-4eaf-9fa7-73691d29f43e</sv:value>
+      </sv:property>
+      <sv:property sv:name="background2" sv:type="String">
+        <sv:value>jcr:8e9d8348-7adc-4d37-8d05-63f145be40c2</sv:value>
+      </sv:property>
+      <sv:property sv:name="link1" sv:type="String">
+        <sv:value>https://www.airasiabig.com/my/en/earn-redeem#travel</sv:value>
+      </sv:property>
+      <sv:property sv:name="link2" sv:type="String">
+        <sv:value>https://www.airasiabig.com/my/en/earn-redeem#lifestyle</sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText1" sv:type="String">
+        <sv:value>View our full list of partners </sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText2" sv:type="String">
+        <sv:value>View our full list of partners </sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-03-20T23:07:42.843+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-03-20T23:07:42.843+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>air-asia-demo:components/double-sections</sv:value>
+      </sv:property>
+      <sv:property sv:name="text1" sv:type="String">
+        <sv:value>&lt;p&gt;TRAVEL&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text2" sv:type="String">
+        <sv:value>&lt;p&gt;LIFESTYLE&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="title1" sv:type="String">
+        <sv:value>Earn BIG points when you take your travel experiences further</sv:value>
+      </sv:property>
+      <sv:property sv:name="title2" sv:type="String">
+        <sv:value>Turn daily spending into rewarding experiences</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

@@ -1,0 +1,34 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6 mgn-air-asia-cell">
+			<div class="mgn-section" [style.background-image]="backgroundStyle(component.background1)">
+				<label>{{component.title1}}</label>
+			
+				<p [innerHTML]="sanitize(component.text1)"></p>
+					
+				<div class="image" *ngIf="component.image1!=null">
+					<img src="{{env.damUrl}}{{component.image1}}">
+				</div>
+				
+			   	<a href="{{component.link1}}" *ngIf="component.link1!=null">
+					{{component.linkText1}}
+			   	</a>
+			</div>
+		</div>
+		<div class="col-sm-6 mgn-air-asia-cell">
+			<div class="mgn-section" [style.background-image]="backgroundStyle(component.background2)">
+				<label>{{component.title2}}</label>
+			
+				<p [innerHTML]="sanitize(component.text2)"></p>
+					
+				<div class="image" *ngIf="component.image2!=null">
+					<img src="{{env.damUrl}}{{component.image2}}">
+				</div>
+				
+			   	<a href="{{component.link2}}" *ngIf="component.link2!=null">
+					{{component.linkText2}}
+			   	</a>
+			</div>
+		</div>
+	</div>
+</div>

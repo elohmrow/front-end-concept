@@ -10,5 +10,7 @@ areas:
     availableComponents:
       carousel:
         id: air-asia-demo:components/carousel
+      double-sections:
+        id: air-asia-demo:components/double-sections
       section:
         id: air-asia-demo:components/section

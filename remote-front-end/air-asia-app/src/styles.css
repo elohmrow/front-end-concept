@@ -133,6 +133,7 @@ body {
     background-size: cover;
     text-align: center;
     color: #fff !important;
+    min-height: 410px;
 }
 .mgn-section label {
     font-size: 24px;
