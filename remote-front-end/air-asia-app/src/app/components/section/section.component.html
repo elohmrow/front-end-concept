@@ -1,0 +1,13 @@
+<div class="mgn-section" [style.background-image]="backgroundStyle()">
+	<label>{{component.title}}</label>
+
+	<p [innerHTML]="sanitize(component.text)"></p>
+		
+	<div class="image">
+		<img src="{{env.damUrl}}{{component.image}}">
+	</div>
+	
+   	<a href="{{component.link}}" *ngIf="component.link!=null">
+		{{component.linkText}}
+   	</a>
+</div>

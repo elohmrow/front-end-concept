@@ -1,0 +1,44 @@
+form:
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: background
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select background
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: title
+          label: Title
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: text
+          label: Text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Select image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: linkText
+          label: Link text
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: link
+          label: Link
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

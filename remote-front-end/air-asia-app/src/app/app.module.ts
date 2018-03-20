@@ -20,6 +20,7 @@ import { NavigationComponent } 		from './components/navigation/navigation.compon
 import { TextImageComponent } 		from './components/text-image/text-image.component';
 import { TimeTableComponent } 		from './components/time-table/time-table.component';
 import { CarouselComponent } 		from './components/carousel/carousel.component';
+import { SectionComponent } 			from './components/section/section.component';
 
 @NgModule({
 	imports: [
@@ -39,14 +40,16 @@ import { CarouselComponent } 		from './components/carousel/carousel.component';
 		NavigationComponent, 
 		TextImageComponent, 
 		TimeTableComponent, 
-		CarouselComponent
+		CarouselComponent, 
+		SectionComponent
 	],
 	entryComponents: [ 
 	    TitleComponent,
 	    TextImageComponent,
 	    SubtitleComponent,
 	    TimeTableComponent,
-	    CarouselComponent
+	    CarouselComponent,
+	    SectionComponent
 	],
 	providers: [
 	    TrainService 

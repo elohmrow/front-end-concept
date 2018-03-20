@@ -124,3 +124,31 @@ body {
     color: #fff;
     border-radius: 3px;
 }
+
+/** Section */
+.mgn-section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff !important;
+}
+.mgn-section label {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.mgn-section p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.mgn-section .image {
+    padding-bottom: 40px;
+}
+.mgn-section a {
+	padding: 10px 20px;
+    background-color: red;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}

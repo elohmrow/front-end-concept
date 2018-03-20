@@ -8,5 +8,7 @@ areas:
   main:
     renderType: freemarker
     availableComponents:
-      title:
+      carousel:
         id: air-asia-demo:components/carousel
+      section:
+        id: air-asia-demo:components/section
