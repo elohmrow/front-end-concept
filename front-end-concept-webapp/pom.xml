@@ -11,6 +11,7 @@
     <artifactId>front-end-concept-webapp</artifactId>
     <name>front-end-concept: webapp</name>
     <packaging>war</packaging>
+    
     <dependencies>
         <dependency>
             <groupId>info.magnolia.eebundle</groupId>
@@ -27,12 +28,6 @@
         <dependency>
             <groupId>info.magnolia.javascript-models</groupId>
             <artifactId>magnolia-module-javascript-models</artifactId>
-        </dependency>
-
-        <!-- Cross domain module -->
-        <dependency>
-            <groupId>info.magnolia.tools</groupId>
-            <artifactId>magnolia-cors-filter</artifactId>
         </dependency>
 
         <!-- Content type module -->
