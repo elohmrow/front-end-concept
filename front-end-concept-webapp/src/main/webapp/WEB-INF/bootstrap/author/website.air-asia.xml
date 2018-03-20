@@ -13,7 +13,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+    <sv:value>2018-03-20T15:43:28.098+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -38,7 +38,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+      <sv:value>2018-03-20T15:43:28.098+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -106,13 +106,13 @@ Shoushan&amp;#39;s Love Terrace - Kaohsiung, Taiwan&lt;/p&gt;
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+        <sv:value>2018-03-20T15:08:49.306+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>air-asia-demo:components/carousel:components/carousel</sv:value>
+        <sv:value>air-asia-demo:components/carousel</sv:value>
       </sv:property>
       <sv:property sv:name="text1" sv:type="String">
         <sv:value>&lt;p&gt;Redeem AirAsia X flights at more than 30% off only on BIG Loyalty app!&lt;br /&gt;
@@ -141,6 +141,50 @@ Rental pick-up period: 10 Feb - 31 Mar 2018&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="title3" sv:type="String">
         <sv:value>Take an auspicious drive</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="00">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b01e978d-71fc-468b-9e28-47c3995fcbaa</sv:value>
+      </sv:property>
+      <sv:property sv:name="background" sv:type="String">
+        <sv:value>jcr:d78f3721-f5fb-480e-8825-0422f44379af</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:80f1ee85-435f-4b01-9787-61a6916e7e96</sv:value>
+      </sv:property>
+      <sv:property sv:name="link" sv:type="String">
+        <sv:value>https://www.citibank.com.my/accope/index.html#accope?pcode=VC830&amp;scode=WAA00025</sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText" sv:type="String">
+        <sv:value>Get this card now!</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-03-20T15:16:43.600+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-03-20T15:43:28.098+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>air-asia-demo:components/section</sv:value>
+      </sv:property>
+      <sv:property sv:name="text" sv:type="String">
+        <sv:value>&lt;p&gt;Earn up to 3x Citi Rewards points for your monthly spend and convert them into BIG Points!&lt;br /&gt;
+AirAsia-Citi Platinum Visa Credit Card&lt;br /&gt;
+You&amp;#39;re free to Pick A Seat with complimentary in-flight meals and up to 3X BIG Points!&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>A savvy traveller’s must-have</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
