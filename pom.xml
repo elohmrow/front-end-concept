@@ -18,8 +18,8 @@
         <magnoliaVersion>5.6.3</magnoliaVersion>
 
         <junitVersion>4.11</junitVersion>
-        <contentTypeVersion>0.5.2</contentTypeVersion>
-        <javascriptModelVersion>1.1</javascriptModelVersion>
+        <contentTypeVersion>0.6</contentTypeVersion>
+        <javascriptModelVersion>1.1.1</javascriptModelVersion>
     </properties>
 
     <!-- Fill the following in, so you can use the release plugin -->
