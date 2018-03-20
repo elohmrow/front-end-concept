@@ -5,9 +5,5 @@ import { TimeTableComponent } 	from '../app/components/time-table/time-table.com
 import { CarouselComponent } 	from '../app/components/carousel/carousel.component';
 
 export const COMPONENTS = {
-	"magnolia-train-station:components/title": TitleComponent,
-	"magnolia-train-station:components/text-image": TextImageComponent,
-	"magnolia-train-station:components/subtitle": SubtitleComponent,
-	"magnolia-train-station:components/time-table": TimeTableComponent,
-	"magnolia-train-station:components/carousel": CarouselComponent
+	"air-asia-demo:components/carousel": CarouselComponent
 };

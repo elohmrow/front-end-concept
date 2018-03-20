@@ -112,7 +112,7 @@ Shoushan&amp;#39;s Love Terrace - Kaohsiung, Taiwan&lt;/p&gt;
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>magnolia-train-station:components/carousel</sv:value>
+        <sv:value>air-asia-demo:components/carousel:components/carousel</sv:value>
       </sv:property>
       <sv:property sv:name="text1" sv:type="String">
         <sv:value>&lt;p&gt;Redeem AirAsia X flights at more than 30% off only on BIG Loyalty app!&lt;br /&gt;

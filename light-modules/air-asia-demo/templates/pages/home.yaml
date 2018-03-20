@@ -9,4 +9,4 @@ areas:
     renderType: freemarker
     availableComponents:
       title:
-        id: magnolia-train-station:components/carousel
+        id: air-asia-demo:components/carousel
