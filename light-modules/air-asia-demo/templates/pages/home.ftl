@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Air Asia demo</title>
-		<base href="${ctx.contextPath}/air-asia-demo">
+		<base href="${ctx.contextPath}/air-asia">
 		
 		<meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">

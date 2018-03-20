@@ -22,7 +22,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(18);
 
 
 
@@ -72,7 +72,7 @@ AppRoutingModule = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__magnolia_app_magnolia_module__ = __webpack_require__(120);
@@ -249,7 +249,7 @@ FooterComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -629,7 +629,7 @@ var _a, _b;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_component_directive__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__area_abstract_area__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__area_list_area__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__component_abstract_component__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__component_router_component__ = __webpack_require__(118);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MagnoliaModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -683,22 +683,6 @@ MagnoliaModule = __decorate([
 ], MagnoliaModule);
 
 //# sourceMappingURL=magnolia.module.js.map
-
-/***/ }),
-
-/***/ 17:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-var environment = {
-    production: false,
-    restUrl: "http://localhost:8080/.rest/delivery/pages/v1/air-asia",
-    trainRestUrl: "http://localhost:8080/.rest/delivery/trains/v1/",
-    damUrl: "http://localhost:8080/dam/",
-    staticFilePath: "http://localhost:8080/.resources/air-asia-demo/webresources"
-};
-//# sourceMappingURL=environment.js.map
 
 /***/ }),
 
@@ -814,40 +798,15 @@ module.exports = module.exports.toString();
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AbstractComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+var environment = {
+    production: false,
+    restUrl: "http://localhost:8080/.rest/delivery/pages/v1/air-asia",
+    trainRestUrl: "http://localhost:8080/.rest/delivery/trains/v1/",
+    damUrl: "http://localhost:8080/dam/",
+    staticFilePath: "http://localhost:8080/.resources/air-asia-demo/webresources"
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var AbstractComponent = (function () {
-    /**
-     * Constructor
-     */
-    function AbstractComponent() {
-    }
-    AbstractComponent.prototype.ngOnInit = function () {
-    };
-    return AbstractComponent;
-}());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
-    __metadata("design:type", Object)
-], AbstractComponent.prototype, "component", void 0);
-AbstractComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
-        template: "nbsp;"
-    }),
-    __metadata("design:paramtypes", [])
-], AbstractComponent);
-
-//# sourceMappingURL=abstract.component.js.map
+//# sourceMappingURL=environment.js.map
 
 /***/ }),
 
@@ -908,14 +867,14 @@ module.exports = module.exports.toString();
 /***/ 183:
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Header -->\n<nav class=\"navbar navbar-default mgn-air-asia-header\"></nav>\n\n<!-- Navigation -->\n<nav class=\"navbar navbar-default affix-top mgn-air-asia-navigation\"></nav>\n\n<!-- Content -->\n<div class=\"container\" *ngIf=\"isDataLoaded\">\t\n\t<!-- Main area -->\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12\" areaName=\"main\" cms-area list-area></div>\n\t</div>\n</div>\n\n<!-- Footer -->\n<footer class=\"mgn-air-asia-footer\"></footer>"
+module.exports = "<!-- Header -->\n<nav class=\"navbar navbar-default mgn-air-asia-header\"></nav>\n\n<!-- Navigation -->\n<nav class=\"navbar navbar-default affix-top mgn-air-asia-navigation\"></nav>\n\n<!-- Content -->\n<div class=\"container-fluid\" *ngIf=\"isDataLoaded\">\t\n\t<!-- Main area -->\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12 mgn-air-asia-cell\" areaName=\"main\" cms-area list-area></div>\n\t</div>\n</div>\n\n<!-- Footer -->\n<footer class=\"mgn-air-asia-footer\"></footer>"
 
 /***/ }),
 
 /***/ 184:
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\n\t<!-- Indicators -->\n\t<ol class=\"carousel-indicators\">\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"1\" *ngIf=\"component.title2!=null\"></li>\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"2\" *ngIf=\"component.title3!=null\"></li>\n\t</ol>\n\t\n\t<!-- Wrapper for slides -->\n\t<div class=\"carousel-inner\">\n\t\t<div class=\"item active\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image1}}\"/>\n\t\t</div>\n\t\n\t\t<div class=\"item\" *ngIf=\"component.title2!=null\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image2}}\"/>\n\t\t</div>\n\t\n\t\t<div class=\"item\" *ngIf=\"component.title3!=null\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image3}}\"/>\n\t\t</div>\n\t</div>\n\t\n\t<!-- Left and right controls -->\n\t<a class=\"left carousel-control\" href=\"#myCarousel\" data-slide=\"prev\">\n\t  <span class=\"glyphicon glyphicon-chevron-left\"></span>\n\t  <span class=\"sr-only\">Previous</span>\n\t</a>\n\t<a class=\"right carousel-control\" href=\"#myCarousel\" data-slide=\"next\">\n\t  <span class=\"glyphicon glyphicon-chevron-right\"></span>\n\t  <span class=\"sr-only\">Next</span>\n\t</a>\n</div>"
+module.exports = "<div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\n\t<!-- Indicators -->\n\t<ol class=\"carousel-indicators\">\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"1\" *ngIf=\"component.image2!=null\"></li>\n\t\t<li data-target=\"#myCarousel\" data-slide-to=\"2\" *ngIf=\"component.image3!=null\"></li>\n\t</ol>\n\t\n\t<!-- Wrapper for slides -->\n\t<div class=\"carousel-inner\">\n\t\t<div class=\"item active\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image1}}\"/>\n      \t\t<div class=\"carousel-caption\">\n      \t\t\t<img src=\"{{env.damUrl}}{{component.bucket1}}\"/>\n      \t\t\t\n        \t\t\t<h3>{{component.title1}}</h3>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.text1)\"></p>\n        \t\t\t\n        \t\t\t<a href=\"{{component.link1}}\" *ngIf=\"component.link1!=null\">\n        \t\t\t\t{{component.linkText1}}\n        \t\t\t</a>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.disclaimer1)\"></p>\n      \t\t</div>\n\t\t</div>\n\t\n\t\t<div class=\"item\" *ngIf=\"component.image2!=null\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image2}}\"/>\n      \t\t<div class=\"carousel-caption\">\n      \t\t\t<img src=\"{{env.damUrl}}{{component.bucket2}}\"/>\n      \t\t\t\n        \t\t\t<h3>{{component.title2}}</h3>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.text2)\"></p>\n        \t\t\t\n        \t\t\t<a href=\"{{component.link2}}\" *ngIf=\"component.link2!=null\">\n        \t\t\t\t{{component.linkText2}}\n        \t\t\t</a>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.disclaimer2)\"></p>\n      \t\t</div>\n\t\t</div>\n\t\n\t\t<div class=\"item\" *ngIf=\"component.image3!=null\">\n\t\t\t<img class=\"img-responsive\" src=\"{{env.damUrl}}{{component.image3}}\"/>\n      \t\t<div class=\"carousel-caption\">\n      \t\t\t<img src=\"{{env.damUrl}}{{component.bucket3}}\"/>\n      \t\t\t\n        \t\t\t<h3>{{component.title3}}</h3>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.text3)\"></p>\n        \t\t\t\n        \t\t\t<a href=\"{{component.link3}}\" *ngIf=\"component.link3!=null\">\n        \t\t\t\t{{component.linkText3}}\n        \t\t\t</a>\n        \t\t\t\n        \t\t\t<p [innerHTML]=\"sanitize(component.disclaimer3)\"></p>\n      \t\t</div>\n\t\t</div>\n\t</div>\n\t\n\t<!-- Left and right controls -->\n\t<a class=\"left carousel-control\" href=\"#myCarousel\" data-slide=\"prev\">\n\t\t<span class=\"glyphicon glyphicon-chevron-left\"></span>\n\t\t<span class=\"sr-only\">Previous</span>\n\t</a>\n\t<a class=\"right carousel-control\" href=\"#myCarousel\" data-slide=\"next\">\n\t\t<span class=\"glyphicon glyphicon-chevron-right\"></span>\n\t\t<span class=\"sr-only\">Next</span>\n\t</a>\n</div>"
 
 /***/ }),
 
@@ -954,6 +913,47 @@ module.exports = "<div class=\"row\">\n\t<div class=\"col-xs-12\">\n\t\t<img cla
 
 /***/ }),
 
+/***/ 19:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AbstractComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AbstractComponent = (function () {
+    /**
+     * Constructor
+     */
+    function AbstractComponent() {
+    }
+    AbstractComponent.prototype.ngOnInit = function () {
+    };
+    return AbstractComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __metadata("design:type", Object)
+], AbstractComponent.prototype, "component", void 0);
+AbstractComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
+        template: "nbsp;"
+    }),
+    __metadata("design:paramtypes", [])
+], AbstractComponent);
+
+//# sourceMappingURL=abstract.component.js.map
+
+/***/ }),
+
 /***/ 190:
 /***/ (function(module, exports) {
 
@@ -986,7 +986,7 @@ module.exports = "<ng-template ngFor let-component [ngForOf]=\"components\">\n  
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__windowref_service__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__environments_environment__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MagnoliaContextService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1226,8 +1226,9 @@ WindowRef = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__magnolia_app_component_abstract_component__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CarouselComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -1251,27 +1252,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var CarouselComponent = (function (_super) {
     __extends(CarouselComponent, _super);
     /**
      * Constructor
      */
-    function CarouselComponent() {
+    function CarouselComponent(_sanitizer) {
         var _this = _super.call(this) || this;
-        _this.env = __WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment */];
+        _this._sanitizer = _sanitizer;
+        _this.env = __WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */];
         return _this;
     }
+    CarouselComponent.prototype.sanitize = function (text) {
+        return this._sanitizer.bypassSecurityTrustHtml(text);
+    };
     return CarouselComponent;
-}(__WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__["a" /* AbstractComponent */]));
+}(__WEBPACK_IMPORTED_MODULE_2__magnolia_app_component_abstract_component__["a" /* AbstractComponent */]));
 CarouselComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: '[app-carousel]',
         template: __webpack_require__(184),
         styles: [__webpack_require__(175)]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _a || Object])
 ], CarouselComponent);
 
+var _a;
 //# sourceMappingURL=carousel.component.js.map
 
 /***/ }),
@@ -1281,7 +1288,7 @@ CarouselComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubtitleComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -1325,8 +1332,8 @@ SubtitleComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextImageComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -1380,7 +1387,7 @@ TextImageComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_train_service__ = __webpack_require__(71);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimeTableComponent; });
 var __extends = (this && this.__extends) || (function () {
@@ -1466,7 +1473,7 @@ var _a;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__magnolia_app_component_abstract_component__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TitleComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -1514,7 +1521,7 @@ TitleComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(18);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrainService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

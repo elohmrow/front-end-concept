@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="air-asia">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:page</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>41c8e607-6fb5-4ee6-9c42-869d0ca77761</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2018-03-20T12:20:34.212+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:template" sv:type="String">
+    <sv:value>air-asia-demo:pages/home</sv:value>
+  </sv:property>
+  <sv:property sv:name="title" sv:type="String">
+    <sv:value>Air Asia demo</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>79c56dca-40fd-40a2-8a43-8a3811aa93d5</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-03-20T12:29:42.330+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>795bad2e-ad5f-4b01-81f9-4b355d1d2c19</sv:value>
+      </sv:property>
+      <sv:property sv:name="bucket1" sv:type="String">
+        <sv:value>jcr:7f2581c1-349c-4c18-9b4f-7c8ecd63b59a</sv:value>
+      </sv:property>
+      <sv:property sv:name="bucket2" sv:type="String">
+        <sv:value>jcr:b240f688-ffc1-4810-b998-a49ed816caad</sv:value>
+      </sv:property>
+      <sv:property sv:name="bucket3" sv:type="String">
+        <sv:value>jcr:4a59bb3a-05f6-4892-98b6-00400b85ec6e</sv:value>
+      </sv:property>
+      <sv:property sv:name="disclaimer1" sv:type="String">
+        <sv:value>&lt;p&gt;Terms &amp;amp; Conditions apply.&lt;br /&gt;
+Shoushan&amp;#39;s Love Terrace - Kaohsiung, Taiwan&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="disclaimer2" sv:type="String">
+        <sv:value>&lt;p&gt;Terms &amp;amp; conditions apply.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="disclaimer3" sv:type="String">
+        <sv:value>&lt;p&gt;Terms and conditions apply.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image1" sv:type="String">
+        <sv:value>jcr:7cc9ac2f-5168-434e-97fc-dcc68c60bd5e</sv:value>
+      </sv:property>
+      <sv:property sv:name="image2" sv:type="String">
+        <sv:value>jcr:a88830bb-1621-43cf-ab19-db02a672d59e</sv:value>
+      </sv:property>
+      <sv:property sv:name="image3" sv:type="String">
+        <sv:value>jcr:26094972-7e96-4f6e-a33b-b3a2f602e4f9</sv:value>
+      </sv:property>
+      <sv:property sv:name="link1" sv:type="String">
+        <sv:value>https://www.airasiabig.com/app/my/en/</sv:value>
+      </sv:property>
+      <sv:property sv:name="link2" sv:type="String">
+        <sv:value>https://www.youtube.com/embed/hTJLLdWfosE</sv:value>
+      </sv:property>
+      <sv:property sv:name="link3" sv:type="String">
+        <sv:value>http://www.budgetinternational.com/airasiabig</sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText1" sv:type="String">
+        <sv:value>Download app to redeem</sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText2" sv:type="String">
+        <sv:value>Watch video to shop</sv:value>
+      </sv:property>
+      <sv:property sv:name="linkText3" sv:type="String">
+        <sv:value>Reserve your car now</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-03-20T12:29:00.377+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-03-20T14:07:40.678+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>magnolia-train-station:components/carousel</sv:value>
+      </sv:property>
+      <sv:property sv:name="text1" sv:type="String">
+        <sv:value>&lt;p&gt;Redeem AirAsia X flights at more than 30% off only on BIG Loyalty app!&lt;br /&gt;
+&lt;br /&gt;
+Redemption period: Now - 1 Apr 2018&lt;br /&gt;
+Travel period: 1 Apr - 31 May 2018&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text2" sv:type="String">
+        <sv:value>&lt;p&gt;Shop via eStore to earn 1 BIG Point for every RM1 spent on&lt;br /&gt;
+Bus Ticket Online, Hotels.com, 11street and many more online brands.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text3" sv:type="String">
+        <sv:value>&lt;p&gt;Earn 8,888 bonus BIG Points when you drive with Budget&lt;br /&gt;
+&lt;br /&gt;
+Promo period: Now - 31 Mar 2018&lt;br /&gt;
+Rental pick-up period: 10 Feb - 31 Mar 2018&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="title1" sv:type="String">
+        <sv:value>Enjoy a romance at its peak</sv:value>
+      </sv:property>
+      <sv:property sv:name="title2" sv:type="String">
+        <sv:value>School's out, Adventure begins!</sv:value>
+      </sv:property>
+      <sv:property sv:name="title3" sv:type="String">
+        <sv:value>Take an auspicious drive</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
+
