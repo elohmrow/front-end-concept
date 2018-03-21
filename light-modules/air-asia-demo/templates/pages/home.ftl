@@ -24,10 +24,9 @@
 				componentsDefinitions: ${model.getComponentDefinitionsJson(content["mgnl:template"])!}, 
 				content: ${model.getPageContent(content["@name"])!}
 			}
-			
-			//Build complete URL
-			[#assign url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort?c + ctx.contextPath]
 		</script>
+		
+		[#assign url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort?c + ctx.contextPath]
 		<script>
 			window.editorEnvironment = {
 				restUrl: "${url}/.rest/delivery/pages/v1/air-asia",

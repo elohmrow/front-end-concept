@@ -28,23 +28,34 @@
 
 ### Magnolia
 * Import some trains records though the Trains app (files available in /WEB-INF/bootstrap/author)
+* Import some loyalties records though the Loyalty app (files available in /WEB-INF/bootstrap/author)
 * Add the following code at then end of the HEAD tag
+* Put the **/server/filters/corsFilter** filter somewhere before the **/server/filters/servlets** filter
 
 ```
 <script>
-	window.singlePageConfig = ${model.getSinglePageConfig(content)};
+	window.singlePageConfig = {
+		areaDefinitions: ${model.getAreaDefinitionsJson(content["mgnl:template"])!}, 
+		componentsDefinitions: ${model.getComponentDefinitionsJson(content["mgnl:template"])!}, 
+		content: ${model.getPageContent(content["@name"])!}
+	}
+</script>
+
+[#assign url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort?c + ctx.contextPath]
+<script>
+	window.editorEnvironment = {
+		restUrl: "${url}/.rest/delivery/pages/v1/air-asia",
+		trainRestUrl: "${url}/.rest/delivery/trains/v1/",
+		loyaltyRestUrl: "${url}/.rest/delivery/loyalties/v1/",
+		damUrl: "${url}/dam/",
+		staticFilePath: "${url}/.resources/air-asia-demo/webresources"
+	}
 </script>
 ```
 * Add the following line somewhere in the HEAD tag
 
 ```
 [@cms.page /]
-```
-
-* Add the following line in the page descriptor
-
-```
-modelClass: info.magnolia.concept.frontend.integration.model.DefinitionExtractorModel
 ```
 
 
