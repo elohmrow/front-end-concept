@@ -1,0 +1,40 @@
+subAppClass: info.magnolia.ui.contentapp.detail.DetailSubApp
+class: info.magnolia.ui.contentapp.detail.DetailSubAppDescriptor
+contentConnector:
+  workspace: big-points
+editor:
+  nodeType:
+    icon: icon-node-data
+    name: mgnl:big-point
+  actions:
+    - name: commit
+    - name: cancel
+  form:
+    tabs:
+      - name: big
+        fields:
+          - name: jcrName
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: origin
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: destination
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          - name: points
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition     
+          - name: image
+            class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+            targetWorkspace: dam
+            appName: assets
+            identifierToPathConverter:
+              class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+            contentPreviewDefinition:
+              contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+actions:
+  commit:
+    class: info.magnolia.ui.form.action.SaveFormActionDefinition
+    availability:
+      rules:
+        - name: IsNotVersionedRule
+          implementationClass: info.magnolia.ui.framework.availability.IsNotVersionedRule
+  cancel:
+    class: info.magnolia.ui.form.action.CancelFormActionDefinition

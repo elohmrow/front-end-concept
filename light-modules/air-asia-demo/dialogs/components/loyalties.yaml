@@ -1,0 +1,68 @@
+form:
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: title
+          label: Title
+          i18n: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    - name: tabColumn1
+      label: Column 1
+      fields:
+        - name: loyalty1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select main loyalty
+        - name: secLoyalty11
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty
+        - name: secLoyalty12
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty
+    - name: tabColumn2
+      label: Column 2
+      fields:
+        - name: loyalty2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select main loyalty
+        - name: secLoyalty21
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty
+        - name: secLoyalty22
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty
+    - name: tabColumn3
+      label: Column 3
+      fields:
+        - name: loyalty3
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select main loyalty
+        - name: secLoyalty31
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty
+        - name: secLoyalty32
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: big-points
+          appName: air-asia-loyalty-app
+          label: Select loyalty     
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

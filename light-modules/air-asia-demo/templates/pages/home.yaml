@@ -14,5 +14,7 @@ areas:
         id: air-asia-demo:components/carousel
       double-sections:
         id: air-asia-demo:components/double-sections
+      loyalties:
+        id: air-asia-demo:components/loyalties
       section:
         id: air-asia-demo:components/section

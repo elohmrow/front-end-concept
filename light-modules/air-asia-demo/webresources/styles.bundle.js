@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 104:
+/***/ 106:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(176);
+var content = __webpack_require__(178);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(246)(content, {});
+var update = __webpack_require__(250)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,22 +27,22 @@ if(false) {
 
 /***/ }),
 
-/***/ 176:
+/***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)(false);
+exports = module.exports = __webpack_require__(5)(false);
 // imports
 
 
 // module
-exports.push([module.i, "body {\n\tpadding: 0px;\n\tmargin-top: 0px!important;\n}\n\n/** Header */\n.mgn-air-asia-header {\n\tbackground-color: #1A1A1A;\n\tmargin-bottom: 0px!important;\n\tpadding: 10px 0 10px 0;\n\tfont-size: 16px;\n}\n.navbar-default .navbar-nav > li > a {\n    color: rgba(245, 245, 245, 0.7)!important;\n}\n.navbar-default .navbar-nav > li > a:hover {\n    color: whitesmoke!important;\n}\n\n/** Navigation */\n.mgn-air-asia-navigation {\n\tbackground-color: #151515;\n\tmargin-bottom: 0px!important;\n}\n.mgn-air-asia-navigation .register {\n\tbackground-color: #4e4e4e;  \n\tborder-radius: 10px; \n\tpadding: 5px; \n\tmargin-top: 8px;\n}\n.mgn-air-asia-navigation .register:hover {\n\tbackground-color: #4e4e4e!important;  \n\tborder-radius: 10px!important; \n\tpadding: 5px!important; \n\tcolor: whitesmoke!important;\n}\n\n/** Footer - disclaimer */\n.mgn-air-asia-footer .disclaimer {\n\tpadding-top: 10px;\n\tbackground-color: #E62D2E;\n}\n.list-inline {\n    color: #FFF;\n}\n.list-inline a {\n\tcolor: #FFF;\n    text-decoration: underline;\n}\n\n/** Footer - sitemap */\n.mgn-air-asia-footer .sitemap {\n\tpadding-top: 40px;\n\tpadding-bottom: 40px;\n\tbackground-color: #282828;\n}\n.nav-footer-title {\n    margin-bottom: 10px;\n    color: whitesmoke;\n    font-size: 16px;\n}\n.nav-footer {\n\tlist-style: none;\n\tmargin: 0;\n    padding: 0;\n}\n.nav-footer li {\n\tdisplay: table;\n    padding: 0 0 3px 0;\n}\n.nav-footer li a {\n    font-size: 14px;\n    color: #9e9e9e !important;\n}\n.nav-footer.languages li {\n\tfloat: left;\n    padding: 0 5px 0 0;\n}\n.nav-social-media {\n\tcolor: #c1c1c1 !important;\n\tmargin-bottom: 10px;\n\tfont-size: 16px;\n}\n.mgn-air-asia-footer .social-column {\n\tfloat: left;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}\n\n.navbar-brand {\n\tpadding: 7px 15px 15px 15px!important;\n}\n\n.mgn-air-asia-cell {\n\tpadding: 0px;\n}\n\n.navbar {\n    border-radius: 0px!important;\n}\n.navbar-default {\n    border-width: 0px!important;\n}\n\n/** Carousel */\n.carousel-caption {\n\ttext-align: left!important;\n}\n.carousel-caption h3 {\n\tfont-size: 40px;\n\tmargin-bottom: 20px;\n}\n.carousel-caption p {\n\tmargin-top: 30px;\n\tmargin-bottom: 30px;\n\tfont-size: 12px;\n}\n.carousel-caption a {\n\tpadding: 10px 20px;\n    background-color: red;\n    border-color: transparent;\n    color: #fff;\n    border-radius: 3px;\n}\n\n/** Section */\n.mgn-section {\n\tpadding-top: 80px;\n\tpadding-bottom: 80px;\n    background-position: center;\n    background-size: cover;\n    text-align: center;\n    color: #fff !important;\n    min-height: 410px;\n}\n.mgn-section label {\n    font-size: 24px;\n    padding-bottom: 15px;\n}\n.mgn-section p {\n    font-size: 16px;\n    padding-bottom: 20px;\n}\n.mgn-section .image {\n    padding-bottom: 40px;\n}\n.mgn-section a {\n\tpadding: 10px 20px;\n    background-color: red;\n    border-color: transparent;\n    color: #fff;\n    border-radius: 3px;\n}\n\n/** Banner */\n.mgn-banners {\n\tbackground-color: #383838;\n\tpadding-top: 20px;\n\tpadding-bottom: 20px;\n}\n.mgn-banner {\n\tcursor: pointer;\n    background-repeat: no-repeat;\n    padding: 1.25em !important;\n    padding-left: 2em !important;\n    height: 6em;\n}\n.mgn-banner > a {\n    font-size: 1em;\n    font-weight: bolder;\n    font-size: 16px;\n}", ""]);
+exports.push([module.i, "body {\n\tpadding: 0px;\n\tmargin-top: 0px!important;\n}\n\n/** Header */\n.mgn-air-asia-header {\n\tbackground-color: #1A1A1A;\n\tmargin-bottom: 0px!important;\n\tpadding: 10px 0 10px 0;\n\tfont-size: 16px;\n}\n.navbar-default .navbar-nav > li > a {\n    color: rgba(245, 245, 245, 0.7)!important;\n}\n.navbar-default .navbar-nav > li > a:hover {\n    color: whitesmoke!important;\n}\n\n/** Navigation */\n.mgn-air-asia-navigation {\n\tbackground-color: #151515;\n\tmargin-bottom: 0px!important;\n}\n.mgn-air-asia-navigation .register {\n\tbackground-color: #4e4e4e;  \n\tborder-radius: 10px; \n\tpadding: 5px; \n\tmargin-top: 8px;\n}\n.mgn-air-asia-navigation .register:hover {\n\tbackground-color: #4e4e4e!important;  \n\tborder-radius: 10px!important; \n\tpadding: 5px!important; \n\tcolor: whitesmoke!important;\n}\n\n/** Footer - disclaimer */\n.mgn-air-asia-footer .disclaimer {\n\tpadding-top: 10px;\n\tbackground-color: #E62D2E;\n}\n.list-inline {\n    color: #FFF;\n}\n.list-inline a {\n\tcolor: #FFF;\n    text-decoration: underline;\n}\n\n/** Footer - sitemap */\n.mgn-air-asia-footer .sitemap {\n\tpadding-top: 40px;\n\tpadding-bottom: 40px;\n\tbackground-color: #282828;\n}\n.nav-footer-title {\n    margin-bottom: 10px;\n    color: whitesmoke;\n    font-size: 16px;\n}\n.nav-footer {\n\tlist-style: none;\n\tmargin: 0;\n    padding: 0;\n}\n.nav-footer li {\n\tdisplay: table;\n    padding: 0 0 3px 0;\n}\n.nav-footer li a {\n    font-size: 14px;\n    color: #9e9e9e !important;\n}\n.nav-footer.languages li {\n\tfloat: left;\n    padding: 0 5px 0 0;\n}\n.nav-social-media {\n\tcolor: #c1c1c1 !important;\n\tmargin-bottom: 10px;\n\tfont-size: 16px;\n}\n.mgn-air-asia-footer .social-column {\n\tfloat: left;\n}\n\n.mgn-train-time-table {\n\tborder: 1px;\n}\n\n.navbar-brand {\n\tpadding: 7px 15px 15px 15px!important;\n}\n\n.mgn-air-asia-cell {\n\tpadding: 0px;\n}\n\n.navbar {\n    border-radius: 0px!important;\n}\n.navbar-default {\n    border-width: 0px!important;\n}\n\n/** Carousel */\n.carousel-caption {\n\ttext-align: left!important;\n}\n.carousel-caption h3 {\n\tfont-size: 40px;\n\tmargin-bottom: 20px;\n}\n.carousel-caption p {\n\tmargin-top: 30px;\n\tmargin-bottom: 30px;\n\tfont-size: 12px;\n}\n.carousel-caption a {\n\tpadding: 10px 20px;\n    background-color: red;\n    border-color: transparent;\n    color: #fff;\n    border-radius: 3px;\n}\n\n/** Section */\n.mgn-section {\n\tpadding-top: 80px;\n\tpadding-bottom: 80px;\n    background-position: center;\n    background-size: cover;\n    text-align: center;\n    color: #fff !important;\n    min-height: 410px;\n}\n.mgn-section label {\n    font-size: 24px;\n    padding-bottom: 15px;\n}\n.mgn-section p {\n    font-size: 16px;\n    padding-bottom: 20px;\n}\n.mgn-section .image {\n    padding-bottom: 40px;\n}\n.mgn-section a {\n\tpadding: 10px 20px;\n    background-color: red;\n    border-color: transparent;\n    color: #fff;\n    border-radius: 3px;\n}\n\n/** Banner */\n.mgn-banners {\n\tbackground-color: #383838;\n\tpadding-top: 20px;\n\tpadding-bottom: 20px;\n}\n.mgn-banner {\n\tcursor: pointer;\n    background-repeat: no-repeat;\n    padding: 1.25em !important;\n    padding-left: 2em !important;\n    height: 6em;\n}\n.mgn-banner > a {\n    font-size: 1em;\n    font-weight: bolder;\n    font-size: 16px;\n}\n\n/**Loyalties. */\n.mgn-loyalties {\n\tbackground-color: #F7F7F7;\n\tpadding-top: 50px;\n\tpadding-bottom: 70px;\n}\n\n.mgn-loyalties-header {\n\tpadding-left: 2.5rem;\n    padding-right: 2.5rem;\n    font-size: 1.6em !important;\n    text-align: center;\n    padding-bottom: 50px;\n}\n\n.mgn-loyalty {\n\tbackground-size: cover;\n    background-repeat: no-repeat;\n    background-position: center center;\n    border-radius: 3px;\n    height: 200px;\n    position: relative;\n    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);\n    color: #4a4a4a;\n}\n.mgn-loyalty .points {\n\tbackground-color: #FFF;\n\tposition: absolute;\n\tbottom: 0px;\n\twidth: 100%;\n}\n.mgn-loyalty .points .destination {\n\tfloat: left;\n\twidth: 50%;\n\tpadding: 5px;\n}\n.mgn-loyalty .points .destination label:first-child {\n\tfont-size: 0.7em !important;\n}\n.mgn-loyalty .points .destination label:last-child {\n\tfont-size: 1.2em !important;\n}\n.mgn-loyalty .points .point {\n\ttext-align: right;\n\tpadding: 5px;\n}\n.mgn-loyalty .points .point label:first-child {\n\tfont-size: 1.4em !important;\n}\n.mgn-loyalty .points .point label:last-child {\n\tfont-size: 0.6em !important;\n}\n\n.mgn-loyalty-sec {\n\tborder-bottom:1px solid #e3e3e3;\n    position: relative;\n    height: 80px;\n}\n.mgn-loyalty-sec .points {\n\tposition: absolute;\n\tbottom: 0px;\n\twidth: 100%;\n}\n.mgn-loyalty-sec .points .destination {\n\tfloat: left;\n\twidth: 50%;\n\tpadding: 5px;\n}\n.mgn-loyalty-sec .points .destination label:first-child {\n\tfont-size: 0.7em !important;\n}\n.mgn-loyalty-sec .points .destination label:last-child {\n\tfont-size: 1.2em !important;\n}\n.mgn-loyalty-sec .points .point {\n\ttext-align: right;\n\tpadding: 5px;\n}\n.mgn-loyalty-sec .points .point label:first-child {\n\tfont-size: 1.4em !important;\n}\n.mgn-loyalty-sec .points .point label:last-child {\n\tfont-size: 0.6em !important;\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 246:
+/***/ 250:
 /***/ (function(module, exports) {
 
 /*
@@ -295,15 +295,15 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 250:
+/***/ 254:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(104);
+module.exports = __webpack_require__(106);
 
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /***/ (function(module, exports) {
 
 /*
@@ -386,5 +386,5 @@ function toComment(sourceMap) {
 
 /***/ })
 
-},[250]);
+},[254]);
 //# sourceMappingURL=styles.bundle.js.map

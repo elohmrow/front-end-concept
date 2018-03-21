@@ -16,3 +16,11 @@ params:
     depth: 10
     includeSystemProperties: true
     bypassWorkspaceAcls: false
+  loyalties:
+    workspace: big-points
+    rootPath: /
+    nodeTypes:
+      - mgnl:big-point
+    depth: 1
+    includeSystemProperties: false
+    bypassWorkspaceAcls: false

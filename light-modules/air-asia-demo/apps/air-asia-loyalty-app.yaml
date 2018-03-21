@@ -1,0 +1,6 @@
+icon: icon-view-list
+appClass: info.magnolia.ui.contentapp.ContentApp
+class: info.magnolia.ui.contentapp.ConfiguredContentAppDescriptor
+subApps:
+  browser: !include /air-asia-demo/includes/air-asia-loyalty-app-browse-subapp.yaml
+  detail: !include /air-asia-demo/includes/air-asia-loyalty-app-detail-subapp.yaml
