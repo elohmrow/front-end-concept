@@ -3,7 +3,7 @@ import { Observable } 							from 'rxjs/Observable';
 import { DomSanitizer, SafeHtml, SafeStyle }	 	from '@angular/platform-browser';
 
 import { AbstractComponent } 	from '../../../magnolia-app/component/abstract.component';
-import { environment } 			from '../../../environments/environment';
+import { EnvironmentService } 	from '../../../magnolia-app/services/environment.service';
 import { LoyaltyService } 		from '../../services/loyalty.service';
 
 @Component({
@@ -25,10 +25,10 @@ export class LoyaltiesComponent  extends AbstractComponent {
 	/**
 	 * Constructor
 	 */
-	constructor(private _sanitizer: DomSanitizer, private loyaltyService: LoyaltyService) {
+	constructor(private _sanitizer: DomSanitizer, private loyaltyService: LoyaltyService, private environmentService: EnvironmentService) {
 		super();
 		
-		this.env = environment;
+		this.env = environmentService.getSelectedEnvironment();
 	}	
 	
 	/**

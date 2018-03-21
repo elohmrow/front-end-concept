@@ -24,6 +24,18 @@
 				componentsDefinitions: ${model.getComponentDefinitionsJson(content["mgnl:template"])!}, 
 				content: ${model.getPageContent(content["@name"])!}
 			}
+			
+			//Build complete URL
+			[#assign url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort?c + ctx.contextPath]
+		</script>
+		<script>
+			window.editorEnvironment = {
+				restUrl: "${url}/.rest/delivery/pages/v1/air-asia",
+				trainRestUrl: "${url}/.rest/delivery/trains/v1/",
+				loyaltyRestUrl: "${url}/.rest/delivery/loyalties/v1/",
+				damUrl: "${url}/dam/",
+				staticFilePath: "${url}/.resources/air-asia-demo/webresources"
+			}
 		</script>
 	</head>
 	<body>

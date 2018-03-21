@@ -5,7 +5,7 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
 import { WindowRef } 				from './windowref.service';
-import { environment } 				from '../../environments/environment';
+import { EnvironmentService } 		from './environment.service';
 
 @Injectable()
 export class MagnoliaContextService {
@@ -19,7 +19,7 @@ export class MagnoliaContextService {
 	/**
 	 * Constructor
 	 */
-	constructor(private winRef: WindowRef, private http: Http) {
+	constructor(private winRef: WindowRef, private http: Http, private environmentService: EnvironmentService) {
 		this.nativeWindow = winRef.nativeWindow;
 		this.singlePageConfig = this.nativeWindow.singlePageConfig;
 		
@@ -143,7 +143,7 @@ export class MagnoliaContextService {
 	 * Contact Magnolia and gets the node content back.
 	 */
 	private getMagnoliaData() {
-		return this.http.get(environment.restUrl)
+		return this.http.get(this.environmentService.getSelectedEnvironment().restUrl)
     		.map(res => res.json());
 	}
 	

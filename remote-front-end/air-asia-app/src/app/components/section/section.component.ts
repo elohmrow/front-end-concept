@@ -1,8 +1,8 @@
 import { Component, OnInit, SecurityContext } from '@angular/core';
 import { DomSanitizer, SafeHtml, SafeStyle }	 from '@angular/platform-browser';
 
-import { AbstractComponent } from '../../../magnolia-app/component/abstract.component';
-import { environment } 		from '../../../environments/environment';
+import { AbstractComponent } 		from '../../../magnolia-app/component/abstract.component';
+import { EnvironmentService } 		from '../../../magnolia-app/services/environment.service';
 
 @Component({
   selector: '[app-section]',
@@ -15,10 +15,10 @@ export class SectionComponent extends AbstractComponent {
 	/**
 	 * Constructor
 	 */
-	constructor(private _sanitizer: DomSanitizer) {
+	constructor(private _sanitizer: DomSanitizer, private environmentService: EnvironmentService) {
 		super();
 		
-		this.env = environment;
+		this.env = environmentService.getSelectedEnvironment();
 	}	
 		
 	public sanitize(text) : SafeHtml {

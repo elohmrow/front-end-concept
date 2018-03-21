@@ -1,6 +1,6 @@
 import { Component, OnInit } 	from '@angular/core';
 
-import { environment } 			from '../../../environments/environment';
+import { EnvironmentService } 		from '../../../magnolia-app/services/environment.service';
 
 @Component({
   selector: '.mgn-air-asia-header',
@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit {
 	id: string;
 	env: any;
 
-  	constructor() {
-  		this.env = environment;
+  	constructor(private environmentService: EnvironmentService) {
+  		this.env = environmentService.getSelectedEnvironment();
   	}
 
   	ngOnInit() {

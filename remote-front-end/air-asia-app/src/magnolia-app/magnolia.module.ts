@@ -3,8 +3,9 @@ import { CommonModule }        				from '@angular/common';
 
 //Services
 import { WindowRef }         				from './services/windowref.service';
-import { MagnoliaContextService }   		from './services/magnolia-context.service';
-import { MagnoliaComponentMapperService }   from './services/magnolia-component-mapper.service';
+import { MagnoliaContextService }   			from './services/magnolia-context.service';
+import { MagnoliaComponentMapperService }   	from './services/magnolia-component-mapper.service';
+import { EnvironmentService }   				from './services/environment.service';
 
 //Directives
 import { AreaDirective } 					from './directives/area.directive';
@@ -30,7 +31,8 @@ import { RouterComponent } 					from './component/router.component';
 	providers: [ 
 	   WindowRef,
 	   MagnoliaContextService,
-	   MagnoliaComponentMapperService
+	   MagnoliaComponentMapperService,
+	   EnvironmentService
     ],
     exports:      [
 	   AreaDirective,

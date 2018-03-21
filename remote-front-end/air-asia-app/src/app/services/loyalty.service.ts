@@ -4,7 +4,7 @@ import { Observable } 				from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 
-import { environment } 				from '../../environments/environment';
+import { EnvironmentService } 		from '../../magnolia-app/services/environment.service';
 
 @Injectable()
 export class LoyaltyService {
@@ -12,7 +12,7 @@ export class LoyaltyService {
 	/**
 	 * Constructor
 	 */
-	constructor(private http: Http) {
+	constructor(private http: Http, private environmentService: EnvironmentService) {
 		
 	}
 		
@@ -20,7 +20,7 @@ export class LoyaltyService {
 	 * Get the trains from Magnolia
 	 */
 	getLoyalties(): Observable<any> {
-		return this.http.get(environment.loyaltyRestUrl)
+		return this.http.get(this.environmentService.getSelectedEnvironment().loyaltyRestUrl)
     			.map(res => res.json());
 	}
 }
