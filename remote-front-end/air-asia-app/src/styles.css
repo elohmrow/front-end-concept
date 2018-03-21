@@ -172,3 +172,88 @@ body {
     font-weight: bolder;
     font-size: 16px;
 }
+
+/**Loyalties. */
+.mgn-loyalties {
+	background-color: #F7F7F7;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.mgn-loyalties-header {
+	padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.6em !important;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.mgn-loyalty {
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+    height: 200px;
+    position: relative;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+}
+.mgn-loyalty .points {
+	background-color: #FFF;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.mgn-loyalty .points .destination {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.mgn-loyalty .points .destination label:first-child {
+	font-size: 0.7em !important;
+}
+.mgn-loyalty .points .destination label:last-child {
+	font-size: 1.2em !important;
+}
+.mgn-loyalty .points .point {
+	text-align: right;
+	padding: 5px;
+}
+.mgn-loyalty .points .point label:first-child {
+	font-size: 1.4em !important;
+}
+.mgn-loyalty .points .point label:last-child {
+	font-size: 0.6em !important;
+}
+
+.mgn-loyalty-sec {
+	border-bottom:1px solid #e3e3e3;
+    position: relative;
+    height: 80px;
+}
+.mgn-loyalty-sec .points {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.mgn-loyalty-sec .points .destination {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.mgn-loyalty-sec .points .destination label:first-child {
+	font-size: 0.7em !important;
+}
+.mgn-loyalty-sec .points .destination label:last-child {
+	font-size: 1.2em !important;
+}
+.mgn-loyalty-sec .points .point {
+	text-align: right;
+	padding: 5px;
+}
+.mgn-loyalty-sec .points .point label:first-child {
+	font-size: 1.4em !important;
+}
+.mgn-loyalty-sec .points .point label:last-child {
+	font-size: 0.6em !important;
+}
