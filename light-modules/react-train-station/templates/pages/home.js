@@ -78,7 +78,8 @@ var DefinitionExtractor = function () {
      * @return The page content
      */
     this.getPageContent = function(pageName) {
-        var response = this.httpGet("http://localhost:8080/.rest/delivery/pages/v1/" + pageName);
+		var url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort + ctx.contextPath;
+		var response = this.httpGet(url + "/.rest/delivery/pages/v1/" + pageName);
         
         return response.data;
     }

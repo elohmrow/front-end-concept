@@ -78,7 +78,8 @@ var DefinitionExtractor = function () {
      * @return The page content
      */
     this.getPageContent = function(pageName) {
-        var response = this.httpGet("http://localhost:8080/.rest/delivery/pages/v1/" + pageName);
+    		var url = ctx.request.scheme + "://" + ctx.request.serverName + ":" + ctx.request.serverPort + ctx.contextPath;
+    		var response = this.httpGet(url + "/.rest/delivery/pages/v1/" + pageName);
         
         return response.data;
     }
@@ -90,11 +91,11 @@ var DefinitionExtractor = function () {
      * @return The json string representation
      */
     this.toJson = function(object) {
-    	var ObjectMapper = Java.type("com.fasterxml.jackson.databind.ObjectMapper");
-    	var MapperFeature = Java.type("com.fasterxml.jackson.databind.MapperFeature");
-    	var JsonAutoDetect = Java.type("com.fasterxml.jackson.annotation.JsonAutoDetect");
+	    	var ObjectMapper = Java.type("com.fasterxml.jackson.databind.ObjectMapper");
+	    	var MapperFeature = Java.type("com.fasterxml.jackson.databind.MapperFeature");
+	    	var JsonAutoDetect = Java.type("com.fasterxml.jackson.annotation.JsonAutoDetect");
     
-    	// Get the object mapper
+    		// Get the object mapper
         var mapper = new ObjectMapper();
 
         // Get serialization config
