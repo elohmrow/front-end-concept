@@ -13,7 +13,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-03-20T23:33:33.167+01:00</sv:value>
+    <sv:value>2018-03-21T12:51:12.010+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -38,7 +38,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-03-20T23:33:33.167+01:00</sv:value>
+      <sv:value>2018-03-21T12:51:12.010+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -141,6 +141,59 @@ Rental pick-up period: 10 Feb - 31 Mar 2018&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="title3" sv:type="String">
         <sv:value>Take an auspicious drive</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="03">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a1e7c6c5-2332-4e3a-9323-337c1649aa97</sv:value>
+      </sv:property>
+      <sv:property sv:name="loyalty1" sv:type="String">
+        <sv:value>/CGK-NRT</sv:value>
+      </sv:property>
+      <sv:property sv:name="loyalty2" sv:type="String">
+        <sv:value>/KUL-KTM</sv:value>
+      </sv:property>
+      <sv:property sv:name="loyalty3" sv:type="String">
+        <sv:value>/PEK-KUL</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-03-21T11:20:45.148+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-03-21T12:51:12.010+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>air-asia-demo:components/loyalties</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty11" sv:type="String">
+        <sv:value>/KUL-KHH</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty12" sv:type="String">
+        <sv:value>/KUL-TPE</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty21" sv:type="String">
+        <sv:value>/KUL-SYD</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty22" sv:type="String">
+        <sv:value>/KUL-IKA</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty31" sv:type="String">
+        <sv:value>/KUL-JAI</sv:value>
+      </sv:property>
+      <sv:property sv:name="secLoyalty32" sv:type="String">
+        <sv:value>/KUL-OOL</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Redeem AirAsia X flights at up to 70% off only on BIG Loyalty mobile app!</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="00">
