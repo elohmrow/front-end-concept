@@ -53,20 +53,21 @@ MgnCtxService.prototype.getAreaComponents = function(areaName) {
 		
 		if (areaContent!=null) { 
 			var components = areaContent["@nodes"];
+
 			components.map(nodeName => {
-				var value = areaContent[nodeName];
-	    	    
-	    	    if (typeof(value) === "object" && value["jcr:primaryType"] === "mgnl:component") {
-	    	    	if (this.isEditionMode()) {
-		    	    	//Gets the template
-		    	    	var templateId = value["mgnl:template"];
-		    	    	var template = this.getComponent(templateId);
-		    	    	value.componentDefinition = template;
-	    	    	}
-	    	    	
-	    	    	results.push(value);
-	    	    }
-			});
+					var value = areaContent[nodeName];
+
+					if (typeof(value) === "object" && value["@nodeType"] === "mgnl:component") {
+						if (this.isEditionMode()) {
+							//Gets the template
+							var templateId = value["mgnl:template"];
+							var template = this.getComponent(templateId);
+							value.componentDefinition = template;
+						}
+
+						results.push(value);
+					}
+				});
     	}
 	}
 
